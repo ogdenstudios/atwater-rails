@@ -5,13 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'csv'
+CSV.foreach(Rails.root.join('lib', 'assets', 'cover_listings', "cover_listing_2018.csv")) do |row|
+  Book.create(
+    work_done: "#{row[0]}",
+    genre: "#{row[1]}",
+    title: "#{row[2]}",
+    old_filename: "#{row[3]}"
+  )
+end
 
-Book.create([{
-  work_done: 'copyedit',
-  genre: 'Fiction',
-  title: 'The Other Side of the World',
-  old_filename: 'Vince_Suzanne_MyMothersJournals'
-}])
 
 Author.create([{
   first_name: 'Suzanne',
