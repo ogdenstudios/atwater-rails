@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Book.create([{
+  work_done: 'copyedit',
+  genre: 'Fiction',
+  title: 'The Other Side of the World',
+  old_filename: 'Vince_Suzanne_MyMothersJournals'
+}])
+
+Author.create([{
+  first_name: 'Suzanne',
+  last_name: 'Vince'
+}])
