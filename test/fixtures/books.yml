@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  work_done: MyString
+  genre: MyString
+  title: MyString
+  old_filename: MyString
+
+two:
+  work_done: MyString
+  genre: MyString
+  title: MyString
+  old_filename: MyString
