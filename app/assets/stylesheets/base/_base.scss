@@ -1,6 +1,13 @@
 body {
   background-color: $background;
   color: $base-font-color;
+  -ms-display: grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 20px;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
@@ -20,4 +27,19 @@ h5,
 h6 {
   color: $headers;
   text-transform: uppercase;
+}
+.body__content {
+  background-color: #fff;
+  -ms-grid-column: 4;
+  -ms-grid-colum-span: 9;
+  grid-column: 4 / -1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / -1;
+  padding: 40px;
+  @media all and (max-width: $breakpoint) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1 / -1;
+  }
 }
