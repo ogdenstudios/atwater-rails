@@ -1,4 +1,5 @@
+<section class="portfolio">
 <% @authors.each do |author| %>
-<%= author.first_name %>
-<%= author.last_name %>
+<%= render 'partials/author', author: author %>
 <% end %>
+</section>
