@@ -16,7 +16,7 @@ class PagesController < ApplicationController
   end
 
   def portfolio 
-    @authors = Author.all
+    @authors = Author.all.order('last_name')
   end
 
   def contact
