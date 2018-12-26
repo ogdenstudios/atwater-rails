@@ -15,6 +15,10 @@ class PagesController < ApplicationController
   def rates
   end
 
+  def portfolio 
+    @authors = Author.all
+  end
+
   def contact
   end
 end

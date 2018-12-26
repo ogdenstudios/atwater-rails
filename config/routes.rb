@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   get '/process', to: "pages#process_page"
   get '/rates', to: "pages#rates"
   get '/contact', to: "pages#contact"
+  get '/portfolio', to: "pages#portfolio"
 
 end
