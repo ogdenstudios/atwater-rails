@@ -1,1 +1,3 @@
-Placeholder. 
+<% @authors.each do |author| %>
+<%= render 'partials/author', author: author %>
+<% end %>

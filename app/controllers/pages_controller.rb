@@ -2,6 +2,7 @@ class PagesController < ApplicationController
 
   def index
     @title = "The Atwater Group"
+    @authors = Author.where(featured_author: true)
   end
 
   def about
