@@ -11,7 +11,7 @@ CSV.foreach(Rails.root.join('lib', 'assets', 'cover_listings', "cover_listing_20
     work_done: "#{row[0]}",
     genre: "#{row[1]}",
     title: "#{row[2]}",
-    old_filename: "#{row[3]}"
+    old_filename: "#{row[4]}"
   )
 end
 

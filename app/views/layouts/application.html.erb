@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-          <meta charset="utf-8">
+    <meta charset="utf-8">
     <title>AtwaterRails</title>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
     <%= favicon_link_tag asset_path('atwater_favicon.ico'), :rel => 'icon', :type =>  'image/png' %>
   </head>
-
   <body>
     <button onClick="sidebarToggle()" style="position: absolute; top: 0; left: 0; z-index: 500;">Toggle</button>
     <%= render 'partials/sidebar' %>
