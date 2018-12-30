@@ -1,5 +1,10 @@
 <!-- Title -->
 <div class="author">
 <h4><%= author.first_name %> <%= author.last_name%></h4>
+<ul>
+<% author.books.each do |book| %>
+<li><%=book.title%></li>
+<% end %>
+</ul>
 </div>
 <!-- Featured image goes here -->
