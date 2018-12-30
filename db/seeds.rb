@@ -92,7 +92,9 @@ Author.create([
   {
     first_name: "Jason",
     last_name: "Halstead",
-    full_name: "Halstead, Jason"
+    full_name: "Halstead, Jason",
+    featured_author: true
+
   }, 
   {
     first_name: "Tom",
@@ -102,7 +104,9 @@ Author.create([
   {
     first_name: "Mallory",
     last_name: "Crowe",
-    full_name: "Crowe, Mallory"
+    full_name: "Crowe, Mallory",
+    featured_author: true
+
   }, 
   {
     first_name: "Evelyn",
@@ -112,12 +116,16 @@ Author.create([
   {
     first_name: "Theresa",
     last_name: "Ragan",
-    full_name: "Ragan, Theresa"
+    full_name: "Ragan, Theresa",
+    featured_author: true
+
   }, 
   {
     first_name: "Lori",
     last_name: "Sjoberg",
-    full_name: "Sjoberg, Lori"
+    full_name: "Sjoberg, Lori",
+    featured_author: true
+
   }, 
   {
     first_name: "Eva",
@@ -137,17 +145,23 @@ Author.create([
   {
     first_name: "Elena",
     last_name: "Aitken",
-    full_name: "Aitken, Elena"
+    full_name: "Aitken, Elena",
+    featured_author: true
+
   }, 
   {
     first_name: "Tameri",
     last_name: "Etherton",
-    full_name: "Etherton, Tameri"
+    full_name: "Etherton, Tameri",
+    featured_author: true
+
   }, 
   {
     first_name: "Laurie",
     last_name: "LeClair",
-    full_name: "LeClair, Laurie"
+    full_name: "LeClair, Laurie",
+    featured_author: true
+
   }, 
   {
     first_name: "EB",
@@ -162,7 +176,9 @@ Author.create([
   {
     first_name: "Kevin",
     last_name: "Hardman",
-    full_name: "Hardman, Kevin"
+    full_name: "Hardman, Kevin",
+    featured_author: true
+
   }, 
   {
     first_name: "Earl",
@@ -182,7 +198,9 @@ Author.create([
   {
     first_name: "Debra",
     last_name: "Clopton",
-    full_name: "Clopton, Debra"
+    full_name: "Clopton, Debra",
+    featured_author: true
+
   }, 
   {
     first_name: "SP",
@@ -239,12 +257,15 @@ Author.create([
   {
     first_name: "JS",
     last_name: "Scott",
-    full_name: "Scott, JS"
+    full_name: "Scott, JS",
+    featured_author: true
   }, 
   {
     first_name: "Cali",
     last_name: "MacKay",
-    full_name: "MacKay, Cali"
+    full_name: "MacKay, Cali",
+    featured_author: true
+
   }, 
   {
     first_name: "Riley",
