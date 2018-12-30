@@ -35,7 +35,12 @@ h6 {
   background-color: #fff;
   -ms-grid-column: 4;
   -ms-grid-column-span: 9;
-  grid-column: 4 / -1;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 20px;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;  grid-column: 4 / -1;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / -1;
@@ -44,6 +49,14 @@ h6 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
     grid-column: 1 / -1;
+  }
+  &__inner {
+    grid-column: 1 / 9;
+    @media all and (max-width: $breakpoint) {
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 12;
+      grid-column: 1 / -1;
+    }
   }
 }
 
