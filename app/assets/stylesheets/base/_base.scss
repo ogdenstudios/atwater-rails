@@ -62,3 +62,26 @@ li {
     margin-right: 5px;
   }
 }
+
+.social {
+  display: inline-block;
+  margin-top: 10px;
+  &__icon {
+    border: 1px solid $base-font-color;
+    border-radius: 50%;
+    color: $base-font-color;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    height: 40px !important;
+    width: 40px !important;
+    i {
+      display: block;
+      margin-top: 11px;
+      text-align: center;
+    }
+    &:hover {
+      border: 1px solid $accent;
+    }
+  }
+}
