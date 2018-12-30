@@ -1,0 +1,12 @@
+.button {
+    &--toggle {
+        background: transparent;
+        border: 1px solid $accent;
+        color: $accent;
+        padding: 6px 12px;
+        &:hover {
+            background: $accent;
+            color: white;
+        }
+    }
+}
