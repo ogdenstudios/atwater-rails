@@ -52,11 +52,13 @@ ul {
   padding: 0;
 }
 li {
+  line-height: 1.55;
   list-style: none;
   margin: 0;
   padding: 0; 
   &:before {
     font-family: 'FontAwesome';
     content: '\f105';
+    margin-right: 5px;
   }
 }
