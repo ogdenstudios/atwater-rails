@@ -7,7 +7,7 @@
       <li><%=book.title%></li>
       <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
         <%= image_tag("old_images/#{book.old_filename}.jpg") %>
-        <% end %>
+      <% end %>
     <% end %>
   </ul>
 </div>
