@@ -1,13 +1,14 @@
 <!-- Title -->
 <div class="author">
-<h4><%= author.first_name %> <%= author.last_name%></h4>
-<p><%= author.testimonial %></p>
-<ul>
-<% author.books.each do |book| %>
-<li><%=book.title%></li>
-<%= image_tag("/old_images/#{book.old_filename}.jpg") %>
-
-<% end %>
-</ul>
+  <h4><%= author.first_name %> <%= author.last_name%></h4>
+  <p><%= author.testimonial %></p>
+  <ul>
+    <% author.books.each do |book| %>
+      <li><%=book.title%></li>
+      <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
+        <%= image_tag("old_images/#{book.old_filename}.jpg") %>
+        <% end %>
+    <% end %>
+  </ul>
 </div>
 <!-- Featured image goes here -->
