@@ -5,7 +5,7 @@
 <ul>
 <% author.books.each do |book| %>
 <li><%=book.title%></li>
-<%= image_tag("old_images/#{book.old_filename}.jpg") %>
+<%= image_tag("/old_images/#{book.old_filename}.jpg") %>
 
 <% end %>
 </ul>
