@@ -614,3 +614,13 @@ CSV.foreach(Rails.root.join('lib', 'assets', 'cover_listings', "cover_listing_20
     old_filename: "#{row[4]}"
   )
 end
+
+authors = Author.all 
+
+authors.each do |author|
+  if author.books.count > 0 
+    firstBook = author.books[0]
+    firstBook.featured = true 
+    firstBook.save! 
+  end
+end
