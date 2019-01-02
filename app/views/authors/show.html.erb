@@ -1,14 +1,9 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>First name:</strong>
-  <%= @author.first_name %>
-</p>
-
-<p>
-  <strong>Last name:</strong>
-  <%= @author.last_name %>
-</p>
-
+<% @author.books.each do |book| %>
+  <a href="/books/<%= book.id %>"><li><%=book.title%></li></a>
+  <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
+    <%= image_tag("old_images/#{book.old_filename}.jpg") %>
+  <% end %>
+<% end %>
 <%= link_to 'Edit', edit_author_path(@author) %> |
 <%= link_to 'Back', authors_path %>
