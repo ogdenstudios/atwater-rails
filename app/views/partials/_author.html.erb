@@ -1,5 +1,5 @@
 <div class="author">
-  <h4><%= author.first_name %> <%= author.last_name%></h4>
+  <a href="/authors/<%= author.id %>"><h4><%= author.first_name %> <%= author.last_name%></h4></a>
   <p><%= author.testimonial %></p>
   <ul>
     <% author.books.each do |book| %>
