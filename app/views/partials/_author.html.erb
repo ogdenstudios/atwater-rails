@@ -1,14 +1,17 @@
 <div class="author">
-  <a href="/authors/<%= author.id %>"><h4><%= author.first_name %> <%= author.last_name%></h4></a>
-  <p><%= author.testimonial %></p>
-  <ul>
-    <% author.books.each do |book| %>
-      <% if book.featured %>
-        <li><%=book.title%></li>
+  <a href="/authors/<%= author.id %>">
+    <h4><%= author.first_name %> <%= author.last_name%></h4>
+  </a>
+  <% if showTestimonial == true %>
+    <p><%= author.testimonial %></p>
+  <% end %>
+  <% author.books.each do |book| %>
+    <% if book.featured %>
+      <div class="author__image-wrapper">
         <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
-          <%= image_tag("old_images/#{book.old_filename}.jpg") %>
+          <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
         <% end %>
-      <% end %>
+      </div>
     <% end %>
-  </ul>
+  <% end %>
 </div>

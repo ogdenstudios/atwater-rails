@@ -1,1 +1,7 @@
-
+.home {
+    &__testimonials {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

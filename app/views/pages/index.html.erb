@@ -1,3 +1,5 @@
-<% @authors.each do |author| %>
-<%= render 'partials/author', author: author %>
-<% end %>
+<section class="home__testimonials">
+  <% @authors.each do |author| %>
+    <%= render 'partials/author', author: author, showTestimonial: true %>
+  <% end %>
+</section>

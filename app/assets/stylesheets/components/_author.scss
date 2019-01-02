@@ -1,4 +1,12 @@
 .author {
+    &__image {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    &__image-wrapper {
+        width: 100%;
+    }
     width: 33%;
     h4 {
         text-transform: uppercase;
