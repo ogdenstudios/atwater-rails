@@ -13,7 +13,7 @@
   <body>
     <button type="button" onClick="sidebarToggle()" class="button--toggle" style="position: absolute; top: 0; left: 0; z-index: 500;"> <i class="fa fa-align-left"> </i> Menu</button>
     <%= render 'partials/sidebar' %>
-    <div class="body__content">
+    <div class="body__content <%= @slug %>">
       <div class="body__content__inner">
         <%= yield %>
       </div>

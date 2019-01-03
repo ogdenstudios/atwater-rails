@@ -4,4 +4,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    &.body__content {
+        background-color: transparent;
+    }
+    .body__content__inner {
+        -ms-grid-column: 1; 
+        -ms-grid-column-span: 12;
+        grid-column: 1 / -1;
+    }
 }
