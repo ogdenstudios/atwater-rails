@@ -1,9 +1,16 @@
 <p id="notice"><%= notice %></p>
+  <div class="book__container">
+
 <% @author.books.each do |book| %>
-  <a href="/books/<%= book.id %>"><li><%=book.title%></li></a>
-  <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
-    <%= image_tag("old_images/#{book.old_filename}.jpg") %>
+    <div class="book">
+      <a href="/books/<%= book.id %>">
+        <li><%=book.title%></li>
+      </a>
+      <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
+        <%= image_tag("old_images/#{book.old_filename}.jpg") %>
+      <% end %>
+    </div>
   <% end %>
-<% end %>
+</div>
 <%= link_to 'Edit', edit_author_path(@author) %> |
 <%= link_to 'Back', authors_path %>

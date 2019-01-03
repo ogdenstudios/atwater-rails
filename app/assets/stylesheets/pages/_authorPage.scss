@@ -1,0 +1,7 @@
+.authorPage {
+    .body__content__inner {
+        -ms-grid-column: 1; 
+        -ms-grid-column-span: -1;
+        grid-column: 1 / -1;
+    }
+}

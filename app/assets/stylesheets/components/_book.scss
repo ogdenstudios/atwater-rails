@@ -1,0 +1,11 @@
+.book {
+    margin: 0 15px 30px 15px;
+    width: 30%;
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 100%
+    }
+}
