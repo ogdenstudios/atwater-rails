@@ -13,9 +13,11 @@
         <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
           <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
         <% end %>
-        <div class="author__see-more">
-        <p>Click here to see all titles for this author.</p>
-        </div>
+        <a href="/authors/<%= author.id %>">
+          <div class="author__see-more">
+            <p>Click here to see all titles for this author.</p>
+          </div>
+        </a>
       </div>
     <% end %>
   <% end %>
