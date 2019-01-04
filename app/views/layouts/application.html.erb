@@ -11,7 +11,10 @@
     <%= favicon_link_tag asset_path('atwater_favicon.ico'), :rel => 'icon', :type =>  'image/png' %>
   </head>
   <body>
+    <div class="mobileNav">
+      <div class="mobileNav-heading"><%= link_to("The Atwater Group", root_path) %></div>
     <button type="button" onClick="sidebarToggle()" class="button--toggle"> <i class="fa fa-align-left"> </i> Menu</button>
+    </div>
     <%= render 'partials/sidebar' %>
     <div class="body__content <%= @slug %>">
       <div class="body__content__inner">

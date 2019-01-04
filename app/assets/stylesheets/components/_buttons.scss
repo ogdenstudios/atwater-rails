@@ -9,6 +9,10 @@
             background: $accent;
             color: white;
         }
+        @media all and (max-width: $breakpoint) {
+            display: block;
+            float: right;
+        }
     }
 }
 
