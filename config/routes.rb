@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   root 'pages#index'
 
+  get '/home', to: "pages#index"
   get '/about', to: "pages#about"
   get '/services', to: "pages#services"
   get '/process', to: "pages#process_page"
