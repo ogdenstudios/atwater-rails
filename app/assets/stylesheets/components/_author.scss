@@ -3,6 +3,7 @@
     box-shadow: 0 0 5px #ccc;
     height: 100%;
     margin:0 10px 20px 10px;
+    transition: all 0.3s ease-in-out;
     width: 30%;
     &:hover {
         box-shadow: 0 0 5px #999;
@@ -25,4 +26,5 @@
     p, h4 {
         padding: 1rem;
     }
+    
 }

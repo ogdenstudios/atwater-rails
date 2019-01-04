@@ -1,7 +1,7 @@
 <div class="author">
-  <a href="/authors/<%= author.id %>">
-    <h4><%= author.first_name %> <%= author.last_name%></h4>
-  </a>
+  <h4>  <a href="/authors/<%= author.id %>">
+      <%= author.first_name %> <%= author.last_name%>  </a>
+  </h4>
   <% if showTestimonial == true %>
     <p><%= author.testimonial %></p>
   <% end %>
