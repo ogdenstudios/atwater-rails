@@ -3,6 +3,7 @@
         background: transparent;
         border: 1px solid $accent;
         color: $accent;
+        display: none;
         padding: 6px 12px;
         &:hover {
             background: $accent;
