@@ -15,7 +15,25 @@
     }
     &__image-wrapper {
         background: #ccc;
+        position: relative;
         width: 100%;
+    }
+    &__see-more {
+        background: #ccc;
+        height: 100%;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        top: 0; 
+        transition: all 0.3s ease-in-out;
+        width: 100%;
+        &:hover {
+            opacity: 0.8;
+        }
+        p {
+            color: #000;
+            margin-top: 50px;
+        }
     }
     h4 {
         text-transform: uppercase;
@@ -26,5 +44,5 @@
     p, h4 {
         padding: 1rem;
     }
-    
+
 }

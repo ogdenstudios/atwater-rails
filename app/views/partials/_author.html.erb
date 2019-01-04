@@ -1,6 +1,8 @@
 <div class="author">
-  <h4>  <a href="/authors/<%= author.id %>">
-      <%= author.first_name %> <%= author.last_name%>  </a>
+  <h4>
+    <a href="/authors/<%= author.id %>">
+      <%= author.first_name %> <%= author.last_name%>
+    </a>
   </h4>
   <% if showTestimonial == true %>
     <p><%= author.testimonial %></p>
@@ -11,6 +13,9 @@
         <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
           <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
         <% end %>
+        <div class="author__see-more">
+        <p>Click here to see all titles for this author.</p>
+        </div>
       </div>
     <% end %>
   <% end %>
