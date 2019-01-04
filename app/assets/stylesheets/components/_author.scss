@@ -8,6 +8,9 @@
     &:hover {
         box-shadow: 0 0 5px #999;
     }
+    @media all and (max-width: 768px) {
+        width: 75%;
+    }
     &__image {
         display: block;
         margin: 0 auto;
