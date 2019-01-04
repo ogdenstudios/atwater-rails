@@ -1,0 +1,7 @@
+.services {
+    li {
+        &:before {
+            color: $accent;
+        }
+    }
+}
