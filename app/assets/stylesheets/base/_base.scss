@@ -11,6 +11,11 @@ body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
+html {
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+
 a {
   color: $link-color;
   text-decoration: none;
