@@ -12,5 +12,7 @@
     </div>
   <% end %>
 </div>
+<% if current_user && current_user["admin_rights"] == true %>
 <%= link_to 'Edit', edit_author_path(@author) %> |
 <%= link_to 'Back', authors_path %>
+<% end %>
