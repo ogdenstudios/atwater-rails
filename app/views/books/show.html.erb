@@ -1,24 +1,23 @@
 <p id="notice"><%= notice %></p>
-
 <p>
   <strong>Work done:</strong>
   <%= @book.work_done %>
 </p>
-
 <p>
   <strong>Genre:</strong>
   <%= @book.genre %>
 </p>
-
 <p>
   <strong>Title:</strong>
   <%= @book.title %>
 </p>
-
 <p>
   <strong>Old filename:</strong>
   <%= @book.old_filename %>
 </p>
-
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+<% if @book.featured %>
+  <p>
+    <strong>Featured</strong>
+  </p>
+<% end %>
+<%= link_to 'Edit', edit_book_path(@book) %>
