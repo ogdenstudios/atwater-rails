@@ -625,4 +625,4 @@ authors.each do |author|
   end
 end
 
-user = User.create! :email => 'faithgh731@gmail.com', :password => 'password', :password_confirmation => 'password'
+user = User.create! :email => 'faithgh731@gmail.com', :password => 'password', :password_confirmation => 'password', :admin_rights => true
