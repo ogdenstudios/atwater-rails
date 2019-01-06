@@ -1,11 +1,14 @@
 <p id="notice"><%= notice %></p>
-  <div class="book__container">
-
-<% @author.books.each do |book| %>
+<div class="book__container">
+  <% @author.books.each do |book| %>
     <div class="book">
-      <a href="/books/<%= book.id %>">
+      <% if current_user && current_user["admin_rights"] == true %>
+        <a href="/books/<%= book.id %>">
+          <li><%=book.title%></li>
+        </a>
+      <% else %>
         <li><%=book.title%></li>
-      </a>
+      <% end %>
       <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
         <%= image_tag("old_images/#{book.old_filename}.jpg") %>
       <% end %>
@@ -13,6 +16,6 @@
   <% end %>
 </div>
 <% if current_user && current_user["admin_rights"] == true %>
-<%= link_to 'Edit', edit_author_path(@author) %> |
-<%= link_to 'Back', authors_path %>
+  <%= link_to 'Edit', edit_author_path(@author) %> |
+  <%= link_to 'Back', authors_path %>
 <% end %>
