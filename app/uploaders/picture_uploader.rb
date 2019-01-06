@@ -13,11 +13,6 @@ class PictureUploader < CarrierWave::Uploader::Base
     storage :file
   end
 
-  # access key 
-  # AKIAJB4PZ7VTABFWTHVA
-  # secret key 
-  # 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
-
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
