@@ -625,7 +625,3 @@ authors.each do |author|
   end
 end
 
-User.create(
-  email: "faithgh731@gmail.com"
-  password: "password"
-)
