@@ -624,3 +624,8 @@ authors.each do |author|
     firstBook.save! 
   end
 end
+
+User.create(
+  email: "faithgh731@gmail.com"
+  password: "password"
+)
