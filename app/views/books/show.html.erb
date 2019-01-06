@@ -21,5 +21,6 @@
   </p>
 <% end %>
 
-    <%= image_tag @book.picture.url if @book.picture? %>
+<%= image_tag @book.picture.url if @book.picture? %>
+
 <%= link_to 'Edit', edit_book_path(@book) %>
