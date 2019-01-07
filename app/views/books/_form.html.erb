@@ -32,4 +32,7 @@
   <div class="actions">
     <%= form.submit %>
   </div>
+
+    <%= select_tag "city", options_for_select(@authors.map {|author| author["full_name"] }) %>
+
 <% end %>

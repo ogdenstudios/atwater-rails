@@ -16,17 +16,19 @@ class BooksController < ApplicationController
   # GET /books/new
   def new
     @book = Book.new
+    @authors = Author.all
   end
 
   # GET /books/1/edit
   def edit
+    @authors = Author.all
   end
 
   # POST /books
   # POST /books.json
   def create
     @book = Book.new(book_params)
-
+    @authors = Author.all
     respond_to do |format|
       if @book.save
         format.html { redirect_to @book, notice: 'Book was successfully created.' }
