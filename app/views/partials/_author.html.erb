@@ -1,6 +1,6 @@
 <div class="author">
   <h4>
-    <a href="/authors/<%= author.id %>">
+    <a href="/authors/<%= author.slug %>">
       <%= author.first_name %> <%= author.last_name%>
     </a>
   </h4>
@@ -12,7 +12,7 @@
       <% if book.picture? %>
         <div class="author__image-wrapper">
           <%= image_tag book.picture.url, class: "author__image" %>
-          <a href="/authors/<%= author.id %>">
+          <a href="/authors/<%= author.slug %>">
             <div class="author__see-more">
               <p>Click here to see all titles for this author.</p>
             </div>
@@ -25,7 +25,7 @@
           <% else %>
             <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
           <% end %>
-          <a href="/authors/<%= author.id %>">
+          <a href="/authors/<%= author.slug %>">
             <div class="author__see-more">
               <p>Click here to see all titles for this author.</p>
             </div>
