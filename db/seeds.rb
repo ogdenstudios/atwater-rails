@@ -11,33 +11,38 @@ Author.create([
   {
     first_name: "Ava",
     last_name: "Bradley", 
-    full_name: "Bradley, Ava"
+    full_name: "Bradley, Ava",
+    slug: "ava-bradley"
   },
   {
     first_name: "JM",
     last_name: "Davies",
-    full_name: "Davies, Jen"
-
+    full_name: "Davies, Jen",
+    slug: "jen-davies"
   },
   {
     first_name: "Will",
     last_name: "Brink",
-    full_name: "Brink, Will"
+    full_name: "Brink, Will",
+    slug: "will-brink"
   },
   {
     first_name: "Mike",
     last_name: "Chatfield",
-    full_name: "Chatfield, Mike"
+    full_name: "Chatfield, Mike",
+    slug: "mike-chatfield"
   },
   {
     first_name: "Reut",
     last_name: "Barak", 
-    full_name: "Barak, Reut"
+    full_name: "Barak, Reut",
+    slug: "reut-barak"
   }, 
   {
     first_name: "Jerri",
     last_name: "Hines",
-    full_name: "Hines, Jerri"
+    full_name: "Hines, Jerri",
+    slug: "jerri-hines"
   }, 
   {
     first_name: "Victoria",
@@ -623,6 +628,11 @@ authors.each do |author|
     firstBook.featured = true 
     firstBook.save! 
   end
+  slug__firstName = author.first_name.downcase 
+  slug__lastName = author.last_name.downcase
+  slug = slug__firstName + "-" + slug__lastName
+  author.slug = slug 
+  author.save!
 end
 
 user = User.create! :email => 'faithgh731@gmail.com', :password => 'password', :password_confirmation => 'password', :admin_rights => true
