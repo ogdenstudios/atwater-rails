@@ -10,8 +10,10 @@
   <% author.books.each do |book| %>
     <% if book.featured %>
       <div class="author__image-wrapper">
-        <% unless Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
-          <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
+        <% if Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
+            <%= image_tag("https://via.placeholder.com/350x600", class: "author__image")%>
+          <% else %>
+            <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
         <% end %>
         <a href="/authors/<%= author.id %>">
           <div class="author__see-more">

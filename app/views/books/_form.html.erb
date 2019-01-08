@@ -10,6 +10,9 @@
     </div>
   <% end %>
   <div class="field">
+    <%= select_tag :author_id, options_for_select(@authors) %>
+  </div>
+  <div class="field">
     <%= form.label :work_done %>
     <%= form.text_field :work_done, id: :book_work_done %>
   </div>
@@ -33,6 +36,5 @@
     <%= form.submit %>
   </div>
 
-    <%= select_tag "city", options_for_select(@authors.map {|author| author["full_name"] }) %>
 
 <% end %>

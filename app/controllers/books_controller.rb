@@ -16,19 +16,20 @@ class BooksController < ApplicationController
   # GET /books/new
   def new
     @book = Book.new
-    @authors = Author.all
+    @authors = Author.all.map { |a| [a.full_name, a.id] }
   end
 
   # GET /books/1/edit
   def edit
-    @authors = Author.all
+    @authors = Author.all.map { |a| [a.full_name, a.id] }
   end
 
   # POST /books
   # POST /books.json
   def create
+    @authors = Author.all.map { |a| [a.full_name, a.id] }
     @book = Book.new(book_params)
-    @authors = Author.all
+    @book.author_id = params[:author_id]
     respond_to do |format|
       if @book.save
         format.html { redirect_to @book, notice: 'Book was successfully created.' }
@@ -44,6 +45,7 @@ class BooksController < ApplicationController
   # PATCH/PUT /books/1.json
   def update
     respond_to do |format|
+      @book.author_id = params[:author_id]
       if @book.update(book_params)
         # HACK: make sure there's only ever one featured book per author
         if @book.featured == true 
@@ -88,6 +90,6 @@ class BooksController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def book_params
-      params.require(:book).permit(:work_done, :genre, :title, :old_filename, :featured, :picture)
+      params.require(:book).permit(:work_done, :genre, :title, :old_filename, :featured, :picture, :author_id)
     end
 end
