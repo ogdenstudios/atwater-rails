@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 <p>
+  <strong>Author:</strong>
+  <%= Author.find(@book.author_id).full_name %>
+</p>
+<p>
   <strong>Work done:</strong>
   <%= @book.work_done %>
 </p>
@@ -11,16 +15,20 @@
   <strong>Title:</strong>
   <%= @book.title %>
 </p>
-
 <% if @book.featured %>
   <p>
     <strong>Featured</strong>
   </p>
 <% end %>
-
-<%= image_tag @book.picture.url if @book.picture? %>
-
+<% if @book.picture? %>
+  <%= image_tag @book.picture.url %>
+<% else %>
+  <% if Rails.application.assets.find_asset("old_images/#{@book.old_filename}.jpg").nil? %>
+    <%= image_tag("https://via.placeholder.com/350x600")%>
+  <% else %>
+    <%= image_tag("old_images/#{@book.old_filename}.jpg") %>
+  <% end %>
+<% end %>
 <% if current_user && current_user["admin_rights"] == true %>
-
-<%= link_to 'Edit', edit_book_path(@book) %>
+  <%= link_to 'Edit', edit_book_path(@book) %>
 <% end %>
