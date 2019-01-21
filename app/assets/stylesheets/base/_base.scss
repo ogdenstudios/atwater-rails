@@ -65,6 +65,9 @@ h6 {
       grid-column: 1 / -1;
     }
   }
+  &.active {
+    display: none !important;
+  }
 }
 
 ul {

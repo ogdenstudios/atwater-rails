@@ -3,9 +3,9 @@ function sidebarToggle() {
   var body = document.getElementById("body")
   if (!sidebar.classList.contains("active")) {
     sidebar.classList.add("active");
-    body.style.display = "none";
+    body.classList.add("active");
   } else {
     sidebar.classList.remove("active");
-    body.style.display = "flex";
+    body.classList.remove("active");
   }
 }
