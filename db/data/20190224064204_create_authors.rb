@@ -1,4 +1,4 @@
-require "CSV"
+require "csv"
 
 class CreateAuthors < SeedMigration::Migration
   def up
