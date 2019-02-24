@@ -7,7 +7,8 @@ class AddBooks < SeedMigration::Migration
         work_done: row[0],
         genre: row[1],
         title: row[3],
-        author_id: Author.find_by(full_name: row[4]).id
+        author_id: Author.find_by(full_name: row[4]).id,
+        picture: Rails.root.join("app/assets/images/all_covers/#{row[5]}.jpg").open
       )
     end
   end
