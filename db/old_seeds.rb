@@ -626,5 +626,3 @@
 #   author.slug = slug 
 #   author.save!
 # end
-
-# user = User.create! :email => 'faithgh731@gmail.com', :password => 'password', :password_confirmation => 'password', :admin_rights => true
