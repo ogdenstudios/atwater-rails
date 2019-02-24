@@ -14,7 +14,6 @@ class CreateAuthors < SeedMigration::Migration
           full_name: full_name,
           slug: slug
         )
-        puts "The data was #{row[4]}, first name was #{first_name}, last name was #{last_name}, slug was #{slug}"
       end
     end  
   end
