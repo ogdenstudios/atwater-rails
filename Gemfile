@@ -43,6 +43,12 @@ gem 'mini_magick',             '4.7.0'
 # Use Devise for auth 
 gem 'devise'
 
+# Use seed_migration for seed migrations 
+gem 'seed_migration'
+
+# Figaro for secrets 
+gem "figaro"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -60,6 +66,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use sqlite3 as the database for Active Record in development
   gem 'sqlite3'
+  # Use Guard for reloading 
+  gem 'guard'
 end
 
 group :production do 

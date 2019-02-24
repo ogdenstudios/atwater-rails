@@ -24,3 +24,6 @@
 
 # Ignore Carrier Wave uploads from dev 
 /public/uploads
+
+# Ignore application configuration
+/config/application.yml

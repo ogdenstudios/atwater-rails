@@ -29,4 +29,5 @@ bottom padding on content pages
 book card in author view wrong image priority
 2018 cover listing is comprehensive except 3rd and 4th quarter
 3rd quarter 
-4th quarter 
+4th quarter
+change copyright date 
