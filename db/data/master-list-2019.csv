@@ -1,0 +1,607 @@
+work_done,genre,subgenre,title,author_full_name,file_name
+proof,romance,contemporary,Deposition and a Dare,"Adams, Evelyn",adams_evelyn_saints_and_sinners_bk_1_deposition_and_a_dare
+proof,romance,military,Falling Free,"Adams, Evelyn",adams_evelyn_southerland_security_bk_1_falling_free
+proof,romance,military,Wicked Intent,"Adams, Evelyn",adams_evelyn_southerland_security_bk_2_wicked_intent
+proof,romance,military,Closer This Time,"Adams, Evelyn",adams_evelyn_southerland_security_bk_3_closer_this_time
+proof,romance,military,Slow Motion,"Adams, Evelyn",adams_evelyn_southerland_security_bk_4_slow_motion
+proof,romance,military,Southerlands Bk 6,"Adams, Evelyn",adams_evelyn_the_southerlands_bk_6_love_at_the_lost_and_found
+proof,romance,military,Laws of Attraction,"Adams, Evelyn",adams_evelyn_the_southerlands_bk_7_laws_of_attraction
+proof,romance,military,Someone to Love,"Adams, Evelyn",adams_evelyn_the_southerlands_bk_8_someone_to_love
+proof,romance,contemporary,Baby novella - Wanted,"Adams, Evelyn",adams_evelyn_wanted_feel_the_heat_collection
+copyedit,romance,fantasy,His To Protect,"Aitken, Elena",aitken_elena_bears_of_grizzly_ridge_bk_1_his_to_protect
+copyedit,romance,fantasy,His To Seduce,"Aitken, Elena",aitken_elena_bears_of_grizzly_ridge_bk_2_his_to_secuce
+copyedit,romance,fantasy,His to Claim,"Aitken, Elena",aitken_elena_bears_of_grizzly_ridge_bk_3_his_to_claim
+copyedit,romance,fantasy,Hers To Take,"Aitken, Elena",aitken_elena_bears_of_grizzly_ridge_bk_4_hers_to_take
+proof,romance,holidays,Unexpected Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_1_unexpected_gifts
+copyedit,romance,holidays,Hidden Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_2.0_hidden_gifts
+copyedit,romance,holidays,Unexpected Endings,"Aitken, Elena",aitken_elena_castle_mtn_bk_2.5_unexpected_endings
+proof,romance,holidays,Mistaken Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_3_mistaken_gifts
+proof,romance,holidays,Secret Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_4_secret_gifts
+proof,romance,holidays,Goodbye Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_5_goodbye_gifts
+copyedit,romance,holidays,Tempting Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_6_tempting_gifts
+copyedit,romance,holidays,Holiday Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_7_holiday_gifts
+copyedit,romance,holidays,Accidental Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_8a_accidental_gifts
+copyedit,romance,holidays,Promised Gifts,"Aitken, Elena",aitken_elena_castle_mtn_bk_8b_promised_gifts
+proof,romance,contemporary,Composing Myself,"Aitken, Elena",aitken_elena_composingmyself
+copyedit,romance,holidays,Shelter by the Sea,"Aitken, Elena",aitken_elena_destintation_paradise_bk_1_shelter_by_the_sea
+copyedit,romance,holidays,Escape to the Sun,"Aitken, Elena",aitken_elena_destintation_paradise_bk_2_escape_to_the_sun
+copyedit,romance,holidays,Hidden in the Sand,"Aitken, Elena",aitken_elena_destintation_paradise_bk_3_hiddeninthesand
+proof,romance,contemporary,Drawing Free,"Aitken, Elena",aitken_elena_drawingfree
+copyedit,romance,contemporary,He Loves Me. Loves Me Not - Daisy Chain,"Aitken, Elena",aitken_elena_helovesmekindleworld
+copyedit,fiction,women's fiction,Halfway to Nowhere,"Aitken, Elena",aitken_elena_holmes_steena_halfwaybk_1_halfwaytonowhere
+copyedit,fiction,women's fiction,Halfway In Between,"Aitken, Elena",aitken_elena_holmes_steena_halfwaybk_2_halfwayinbetween
+copyedit,fiction,women's fiction,Halfway to Christmas,"Aitken, Elena",aitken_elena_holmes_steena_halfwaybk_3_halfwaytochristmas
+copyedit,romance,holidays,Love in the Moment,"Aitken, Elena",aitken_elena_themccormicks_bk_1.0_loveinthemoment
+copyedit,romance,holidays,Going for the Moment,"Aitken, Elena",aitken_elena_themccormicks_bk_1.5_goingforthemoment
+copyedit,romance,holidays,Only for a Moment,"Aitken, Elena",aitken_elena_themccormicks_bk_2_onlyforamoment
+copyedit,romance,holidays,One More Moment,"Aitken, Elena",aitken_elena_themccormicks_bk_3_onemoremoment
+copyedit,romance,holidays,In this Moment,"Aitken, Elena",aitken_elena_themccormicks_bk_4_inthismoment
+copyedit,romance,holidays,From This Moment,"Aitken, Elena",aitken_elena_themccormicks_bk_5_fromthismoment
+copyedit,romance,holidays,The Summer of Change,"Aitken, Elena",aitken_elena_thesprings_bk_1_summerofchange
+copyedit,romance,holidays,Falling Into Forever,"Aitken, Elena",aitken_elena_thesprings_bk_2.0_fallingintoforever
+copyedit,romance,holidays,Second Glances,"Aitken, Elena",aitken_elena_thesprings_bk_2.5_secondglances
+copyedit,romance,holidays,Winter's Burn,"Aitken, Elena",aitken_elena_thesprings_bk_3_wintersburn
+copyedit,romance,holidays,Midnight Springs,"Aitken, Elena",aitken_elena_thesprings_bk_4.0_midnightsprings
+copyedit,romance,holidays,She's Making A List,"Aitken, Elena",aitken_elena_thesprings_bk_4.5_shesmakingalist
+copyedit,romance,holidays,Summit of Desire,"Aitken, Elena",aitken_elena_thesprings_bk_5_summitofdesirestonesummitbk1
+copyedit,romance,holidays,Summit of Seduction,"Aitken, Elena",aitken_elena_thesprings_bk_6_summitofseductionstonesummitbk2
+copyedit,romance,holidays,Summit of Passion,"Aitken, Elena",aitken_elena_thesprings_bk_7_summitofdesirestonesummitbk3
+copyedit,romance,holidays,Fighting For Forever,"Aitken, Elena",aitken_elena_thesprings_bk_8_fightingforforever
+copyedit,fiction,women's fiction,When We Left,"Aitken, Elena",aitken_elena_timbercreekbk1_whenweleft
+copyedit,fiction,women's fiction,When We Were Us,"Aitken, Elena",aitken_elena_timbercreekbk2_whenwewereus
+copyedit,romance,women's fiction,When We Began,"Aitken, Elena",aitken_elena_timbercreekbk3_whenwebegan
+proof,fiction,women's fiction,Nothing Stays In Vegas,"Aitken, Elena",aitken_elena_vegasbk1_nothingstaysinvegas
+copyedit,fiction,women's fiction,Return to Vegas,"Aitken, Elena",aitken_elena_vegasbk2_returntovegas
+copyedit,romance,mystery & suspense,"Tall, Dark and Damaged","Andre, Sarah",andre_sara_talldarkanddamaged
+proof,romance,mystery & suspense,Hush,"Baldwin, Carey",baldwin_carey_hush
+copyedit,"action, mystery, suspense, thriller",mystery,Discretion,"Balzarini, David",balzarini_david_discretion
+copyedit,fiction,general fiction,The Passerby Part 1,"Balzarini, David",balzarini_david_thepasserbypart1
+copyedit,fiction,general fiction,The Passerby Part II,"Balzarini, David",balzarini_david_thepasserbypart2
+proof,science fiction & fantasy,fairy tale,Snow White,"Barak, Reut",barak_raut_funnyfairytales_snowwhiteandthesevendwarfs
+proof,science fiction & fantasy,fairy tale,Hansel & Gretel,"Barak, Reut",barak_reut_funnyfairytales_hanselandgretel
+proof,science fiction & fantasy,fairy tale,Rapunzel,"Barak, Reut",barak_reut_funnyfairytales_rapunzel
+proof,science fiction & fantasy,fairy tale,Red Riding Hood,"Barak, Reut",barak_reut_funnyfairytales_redridinghood
+proof,science fiction & fantasy,fairy tale,Sleeping Beauty,"Barak, Reut",barak_reut_funnyfairytales_sleepingbeauty
+copyedit,science fiction & fantasy,paranormal,A Caribbean Spell,"Betita, Maureen",betita_maureen_acaribbeanspell
+copyedit,science fiction & fantasy,paranormal,Red Sean's Revenge,"Betita, Maureen",betita_maureen_seansrevenge
+copyedit,science fiction & fantasy,paranormal,The French Gambit,"Betita, Maureen",betita_maureen_thefrenchgambit
+proof,fiction,lgbt,Not Sure Boys,"Bettencourt, Rick",bettencourt_rick_notsureboys
+proof,fiction,suspense,Summerwind Magick,"Bettencourt, Rick",bettencourt_rick_summerwindmagick
+proof,fiction,lgbt,Painting With Wine,"Bettencourt, Rick",bettencourt_rick_paintingwithwine
+proof,fiction,lgbt,Tim on Broadway Episode 1,"Bettencourt, Rick",bettencourt_rick_timonbroadwayseasononeepisode1
+proof,fiction,lgbt,Tim on Broadway Episode 2,"Bettencourt, Rick",bettencourt_rick_timonbroadwayseasononeepisode2
+proof,fiction,lgbt,Tim on Broadway Episode 3,"Bettencourt, Rick",bettencourt_rick_timonbroadwayseasononeepisode3
+proof,fiction,lgbt,Tim on Broadway Episode 4,"Bettencourt, Rick",bettencourt_rick_timonbroadwayseasononeepisode4
+proof,fiction,lgbt,Tim on Broadway Episode 5,"Bettencourt, Rick",bettencourt_rick_timonbroadwayseasononeepisode5
+copyedit,science fiction & fantasy,paranormal,Bright's Passion,"Black, EB",black_eb_brightspassion
+copyedit,science fiction & fantasy,steampunk,Steampunk Romance,"Black, EB",black_eb_gaslightsandgravescollection
+copyedit,science fiction & fantasy,fairy tale,Medusa's Desire,"Black, EB",black_eb_medusasdesire
+copyedit,science fiction & fantasy,fairy tale,Night's Lust,"Black, EB",black_eb_nightslust
+copyedit,science fiction & fantasy,fairy tale,Pandora's Mistake,"Black, EB",black_eb_pandorasmistake
+copyedit,science fiction & fantasy,zombie,Zombie Romance,"Black, EB",black_eb_zombieapocalypsecollection
+proof,"action, mystery, suspense, thriller",mystery,Dead in a Park,"Blair, BL",blair_bl_deadinapark
+copyedit,romance,contemporary,Boxer Briefs and Boots,"Blaze, Aine",blaze_aine_boxerbriefsandboots
+copyedit,science fiction & fantasy,steampunk,Miss Hyde,"Bold, Imogen",bold_imogen_misshydelastwaltzinvienna
+proof,romance,mystery & suspense,A Stranger's Touch,"Boroughs, Roxy",boroughs_roxy_astrangerstouch
+proof,romance,romantic suspense,August Unknown,"Bradley, Ava",bradley_ava_augustunknown
+copyedit,romance,romantic suspense,Her Darkest Fear,"Bradley, Ava",bradley_ava_deadlysightbk2_herdarkestfear
+proof,romance,paranormal,Kiss Me Before Dawn,"Bradley, Ava",bradley_ava_kissmebeforedawn
+proof,romance,western,Lady Outlaw,"Bradley, Ava",bradley_ava_ladyoutlaw
+proof,romance,military,Last Rights,"Bradley, Ava",bradley_ava_lastrights
+proof,romance,holidays,Once Upon A Christmas Carol,"Bradley, Ava",bradley_ava_onceuponachristmascarol
+proof,romance,science fiction,The Lost Finder,"Bradley, Ava",bradley_ava_thelostfinder
+copyedit,romance,suspense,Intuition,"Bradley, Jenni",bradley_jenni_intuition
+copyedit,romance,romantic comedy,Release Me,"Bradley, Jenni",bradley_jenni_midwestbk1_releaseme
+copyedit,romance,romantic comedy,Seduce Me,"Bradley, Jenni",bradley_jenni_midwestbk2_seduceme
+copyedit,romance,romantic comedy,Tame Me,"Bradley, Jenni",bradley_jenni_midwestbk3_tameme
+copyedit,romance,romantic comedy,Throw Me A Bone,"Bradley, Jenni",bradley_jenni_throwmeabone
+copyedit,"action, mystery, suspense, thriller",mystery,The Kona Shuffle,"Bradley, Tom",bradley_tom_noelanileemysterybk1_thekonashuffle
+copyedit,"action, mystery, suspense, thriller",mystery,The Hilo Hustle,"Bradley, Tom",bradley_tom_noelanileemysterybk2_thehilohustle
+copyedit,"action, mystery, suspense, thriller",mystery,The Pahala Twist,"Bradley, Tom",bradley_tom_noelanileemysterybk3_thepahalatwist
+copyedit,"action, mystery, suspense, thriller",mystery,Waimea Two-Step,"Bradley, Tom",bradley_tom_noelanileemysterybk4_thewaimeatwo-step
+copyedit,"action, mystery, suspense, thriller",mystery,The Volcano Shake,"Bradley, Tom",bradley_tom_noelanileemysterybk5_thevolcanoshake
+copyedit,science fiction & fantasy,science fiction,Soul Mind,"Brink, Will",brink_will_soulmind
+copyedit,science fiction & fantasy,science fiction,The N Word,"Brink, Will",brink_will_thenword
+copyedit,science fiction & fantasy,zombie,Zombie Sex Slaves Wait For No Man,"Brink, Will",brink_will_zombiesexslaves
+copyedit,"action, mystery, suspense, thriller",horror,The Dolls' House,"Brown, Li",brownli_thedollshouse
+copyedit,"action, mystery, suspense, thriller",suspense,Soul  Witness,"Buczynski, Daria",buczynski_daria_soulwitness
+proof,science fiction & fantasy,paranormal,Forgotten Darkness,"Cannon, Sarra",cannon_sarra_forgottendarkness
+proof,science fiction & fantasy,paranormal,Emerald Darkness,"Cannon, Sarra",cannon_sarra_theemeralddarkness
+copyedit,science fiction & fantasy,paranormal,Pockets of the Dead,"Carr, Karen",carr_karen_dawnlandbk1_pocketsofthedead
+copyedit,science fiction & fantasy,paranormal,Hella Kills,"Carr, Karen",carr_karen_dawnlandbk2_hellakills
+copyedit,science fiction & fantasy,science fiction,The Harrow Bk 1,"Carr, Karen",carr_karen_harrowbk1_theharrow
+copyedit,science fiction & fantasy,science fiction,The Quell: the Harrow Bk 2,"Carr, Karen",carr_karen_harrowbk2_thequell
+copyedit,science fiction & fantasy,dystopian,Kill School: Slice,"Carr, Karen",carr_karen_killschoolbk1_slice
+copyedit,science fiction & fantasy,dystopian,Kill School Grace,"Carr, Karen",carr_karen_killschoolbk2_grace
+proof,romance,contemporary,Dust to Dust,"Cervantes, Susan",cervantes_sp_dusttodust
+copyedit,romance,contemporary,Jar of Hearts,"Cervantes, Susan",cervantes_sp_hisjarofhearts
+copyedit,romance,fantasy,Always and Forever,"Cervantes, Susan",cervantes_sp_secretsofshadowhillbk1_alwaysandforever
+copyedit,science fiction & fantasy,paranormal,War of Wizards,"Cervantes, Susan",cervantes_sp_secretsofshadowhillbk3_warwizards
+copyedit,romance,romantic suspense,The Wife,"Cervantes, Susan",cervantes_sp_thewife
+proof,romance,contemporary,Sheltered Heart,"Charles, Eva",charles_eva_newamericanroyalsbk1_shelteredheart
+proof,romance,contemporary,Unforgettable,"Charles, Eva",charles_eva_newamericanroyalsbk4_unforgettable
+copyedit,romance,contemporary,Loyal Subjects,"Charles, Eva",charles_eva_newamericanroyalsbk5_loyalsubjects
+copyedit,romance,contemporary,A Lasting Love,"Chase, Victoria K.",chase_kvictoria_alastinglove
+copyedit,"action, mystery, suspense, thriller",crime fiction,Alejandro,"Chase, Victoria K.",chase_kvictoria_alejandro
+copyedit,romance,contemporary,A Merry Love,"Chase, Victoria K.",chase_kvictoria_amerrylove
+copyedit,romance,contemporary,From Across the Divide,"Chase, Victoria K.",chase_kvictoria_fromacrossthedivide
+copyedit,"action, mystery, suspense, thriller",crime fiction,Rafael,"Chase, Victoria K.",chase_kvictoria_rafael
+copyedit,"action, mystery, suspense, thriller",crime fiction,Ricardo,"Chase, Victoria K.",chase_kvictoria_ricardo
+copyedit,romance,contemporary,A Thankful Love,"Chase, Victoria K.",chase_kvictoria_thankfullove
+copyedit,"action, mystery, suspense, thriller",crime fiction,Serial Games,"Chase, Victoria K.",chase_kvictoria_virginiajusticebk1_serialgames
+copyedit,"action, mystery, suspense, thriller",crime fiction,Marked by the Mob,"Chase, Victoria K.",chase_kvictoria_virginiajusticebk2_markedbythemob
+copyedit,"action, mystery, suspense, thriller",crime fiction,Killer Shoot,"Chase, Victoria K.",chase_kvictoria_virginiajusticebk3_killershoot
+copyedit,romance,western,Mail Order Bride - Lucy,"Clopton, Debra",chasen_elizabethbk1_thelawmansmailorderbride
+copyedit,romance,western,The Preacher's Mail Order Bride,"Clopton, Debra",chasen_elizabethbk2_preachersmailorderbride
+copyedit,science fiction & fantasy,fantasy gaming,Trapped Mind,"Chatfield, Michael",chatfield_michael_emeriliabk1_trappedmindproject
+copyedit,science fiction & fantasy,fantasy gaming,The Pantheon Moves,"Chatfield, Michael",chatfield_michael_emeriliabk10_thepantheonmoves
+copyedit,science fiction & fantasy,fantasy gaming,Empire Burning,"Chatfield, Michael",chatfield_michael_emeriliabk11_empireburning
+copyedit,science fiction & fantasy,fantasy gaming,Benvari Mountains,"Chatfield, Michael",chatfield_michael_emeriliabk2_benvarimountains
+copyedit,science fiction & fantasy,fantasy gaming,For the Guild,"Chatfield, Michael",chatfield_michael_emeriliabk3_fortheguild
+copyedit,science fiction & fantasy,fantasy gaming,New Horizons,"Chatfield, Michael",chatfield_michael_emeriliabk4_newhorizons
+copyedit,science fiction & fantasy,fantasy gaming,This Is Our Land,"Chatfield, Michael",chatfield_michael_emeriliabk5_thisisourland
+copyedit,science fiction & fantasy,fantasy gaming,Stone Raiders Return,"Chatfield, Michael",chatfield_michael_emeriliabk6_stoneraidersreturn
+copyedit,science fiction & fantasy,fantasy gaming,Time of Change,"Chatfield, Michael",chatfield_michael_emeriliabk7_timeofchange
+copyedit,science fiction & fantasy,fantasy gaming,Beyond Expectations,"Chatfield, Michael",chatfield_michael_emeriliabk8_beyondallexpectations
+copyedit,science fiction & fantasy,fantasy gaming,Myths & Legends,"Chatfield, Michael",chatfield_michael_emeriliabk9_ofmythsandlegends
+copyedit,science fiction & fantasy,science fiction,The Vanguard Emerges,"Chatfield, Michael",chatfield_michael_maraukianwarsbk2_thevanguardemerges
+copyedit,science fiction & fantasy,science fiction,An Empire is Born,"Chatfield, Michael",chatfield_michael_maraukianwarsbk3_anempireisborn
+copyedit,science fiction & fantasy,science fiction,Enemies All Sides,"Chatfield, Michael",chatfield_michael_maraukianwarsbk4_enemiesonallsides
+copyedit,science fiction & fantasy,science fiction,The Recruitment,"Chatfield, Michael",chatfield_michael_riseofthefreefleetbk1_therecruitment
+copyedit,science fiction & fantasy,fantasy gaming,Two Week Curse,"Chatfield, Michael",chatfield_michael_tenrealms_bk1_thetwoweekcurse
+copyedit,science fiction & fantasy,fantasy gaming,The Second Realm,"Chatfield, Michael",chatfield_michael_tenrealms_bk2_the_second_realm
+copyedit,science fiction & fantasy,fantasy gaming,The Third Realm,"Chatfield, Michael",chatfield_michael_tenrealms_bk3_thethirdrealm
+copyedit,romance,new adult & college,Unbreakable Devotion,"Chayse, Amanda",chayse_amanda_bk1_unbreakabledevotion
+copyedit,romance,new adult & college,Unbreakable Devotion Bk 2,"Chayse, Amanda",chayse_amanda_bk2_unbreakablelove
+copyedit,romance,new adult & college,Unbreakable Together,"Chayse, Amanda",chayse_amanda_bk3_unbreakabletogether
+copyedit,romance,western,Ransom Creek - Shane,"Clopton, Debra",clopton_debra_cowboysofransomcreek_bk1_hercowboyhero
+copyedit,romance,western,Bride for Hire,"Clopton, Debra",clopton_debra_cowboysofransomcreek_bk2_brideforhire
+copyedit,romance,western,Cowboys of  Ransom Creek - Cooper,"Clopton, Debra",clopton_debra_cowboysofransomcreek_bk3_cooper
+copyedit,romance,western,Ransom Creek - Shane,"Clopton, Debra",clopton_debra_cowboysofransomcreek_bk4_shane
+copyedit,romance,western,Ransom Creek - Vance,"Clopton, Debra",clopton_debra_cowboysofransomcreek_bk5_vance
+copyedit,romance,western,Drake,"Clopton, Debra",clopton_debra_cowboysofransomcreek_bk6_drake
+copyedit,romance,western,Cowboys of Ransom Creek: Brice,"Clopton, Debra",clopton_debra_cowboysofransomcreek_bk7_brice
+copyedit,romance,western,Dalton - New Horizons Ranch,"Clopton, Debra",clopton_debra_newhorizonranchbk5_dalton
+copyedit,romance,western,New Horizon Ranch Bk 6 Treb,"Clopton, Debra",clopton_debra_newhorizonranchbk6_treb
+copyedit,romance,western,New Horizon Ranch Bk 8 Austin,"Clopton, Debra",clopton_debra_newhorizonranchbk8_austin
+copyedit,romance,clean & wholesome,From This Moment On,"Clopton, Debra",clopton_debra_windsweptbaybk1_fromthismomenton
+copyedit,romance,clean & wholesome,With This Forever,"Clopton, Debra",clopton_debra_windsweptbaybk10_withthisforever
+copyedit,romance,clean & wholesome,With This Vow,"Clopton, Debra",clopton_debra_windsweptbaybk11_withthisvow
+copyedit,romance,clean & wholesome,Somewhere With You,"Clopton, Debra",clopton_debra_windsweptbaybk2_somewherewithyou
+copyedit,romance,clean & wholesome,With This Kiss,"Clopton, Debra",clopton_debra_windsweptbaybk3_withthiskiss
+copyedit,romance,clean & wholesome,Forever and For Always,"Clopton, Debra",clopton_debra_windsweptbaybk4_foreverandforalways
+copyedit,romance,clean & wholesome,Holding Out For Love,"Clopton, Debra",clopton_debra_windsweptbaybk5_holdingoutforlove
+copyedit,romance,clean & wholesome,With This Ring,"Clopton, Debra",clopton_debra_windsweptbaybk6_withthisring
+copyedit,romance,clean & wholesome,With This Promise,"Clopton, Debra",clopton_debra_windsweptbaybk7_withthispromise
+copyedit,romance,clean & wholesome,With This Pledge,"Clopton, Debra",clopton_debra_windsweptbaybk8_withthispledge
+copyedit,romance,clean & wholesome,With This Wish,"Clopton, Debra",clopton_debra_windsweptbaybk9_withthiswish
+copyedit,"action, mystery, suspense, thriller",mystery,Bagel Helps Find Robin Hood,"Coburn, Ed",coburn_edward_bagel_helps_find_robin_hood
+copyedit,"action, mystery, suspense, thriller",mystery,The Dog Who Ate the Airplane,"Coburn, Ed",coburn_edward_bk1_dog_ate_airplane
+copyedit,"action, mystery, suspense, thriller",mystery,The Dog Who Ate the Burgler,"Coburn, Ed",coburn_edward_bk2_dog_who_ate_burglar
+copyedit,"action, mystery, suspense, thriller",mystery,The Dog Who Ate the Crossbow,"Coburn, Ed",coburn_edward_bk3_dog_who_ate_crossbow
+copyedit,"action, mystery, suspense, thriller",mystery,Dog Ate Drawing,"Coburn, Ed",coburn_edward_bk4_dog_who_ate_drawing
+copyedit,"action, mystery, suspense, thriller",mystery,Dog Who Ate the Elephant,"Coburn, Ed",coburn_edward_bk5_dog_who_ate_the_elephant
+copyedit,romance,romantic suspense,Fragmented,"Connally, Colleen",connally_colleen_bostoncrimeofpassions_bk1fragmented
+copyedit,romance,romantic suspense,Framed,"Connally, Colleen",connally_colleen_bostoncrimeofpassions_bk2framed
+copyedit,romance,mystery & suspense,Broken Legacy,"Connally, Colleen",connally_colleen_brokenlegacy
+copyedit,romance,mystery & suspense,Seductive Lies,"Connally, Colleen",connally_colleen_seductivelies
+copyedit,science fiction & fantasy,paranormal,The Path Now Turned,"Connally, Colleen",connally_colleen_thethreerealms_bk2_thepathnowturned
+copyedit,fiction,general fiction,Stumptown,"Constantine, Thea",constantine_thea_stumptown
+proof,"action, mystery, suspense, thriller",suspense,The Blueprint,"Cross, Wesley",cross_wesley_theblueprint
+copyedit,romance,paranormal,Finding Fire,"Crowe, Mallory",crowe_mallory_badboysoftheunderworldbk1_findingfire
+copyedit,science fiction & fantasy,paranormal,Daring Fire,"Crowe, Mallory",crowe_mallory_badboysoftheunderworldbk2_daringfire
+copyedit,science fiction & fantasy,paranormal,Binding Fire,"Crowe, Mallory",crowe_mallory_badboysoftheunderworldbk3_bindingfire
+copyedit,science fiction & fantasy,paranormal,Ruling Fire,"Crowe, Mallory",crowe_mallory_badboysoftheunderworldbk4_rulingfire
+copyedit,science fiction & fantasy,paranormal,Stealing Fire,"Crowe, Mallory",crowe_mallory_badboysoftheunderworldbk5_stealingfire
+copyedit,romance,paranormal,Bewitching Hour,"Crowe, Mallory",crowe_mallory_betwitchinghourbk1_thebewitchinghour
+copyedit,romance,paranormal,Burning Gold,"Crowe, Mallory",crowe_mallory_betwitchinghourbk2_burninggold
+copyedit,romance,paranormal,Long and Lost,"Crowe, Mallory",crowe_mallory_betwitchinghourbk3_longandlost
+copyedit,science fiction & fantasy,paranormal,A Little Wicked,"Crowe, Mallory",crowe_mallory_bewitchinghourbk4_alittlewicked
+copyedit,science fiction & fantasy,paranormal,Raise Hell,"Crowe, Mallory",crowe_mallory_bewitchinghourbk5_raisehell
+copyedit,romance,action & adventure,Teaching the Boss,"Crowe, Mallory",crowe_mallory_billionairesinthecitybk1_teachingtheboss
+copyedit,romance,romantic suspense,Teasing the Boss,"Crowe, Mallory",crowe_mallory_billionairesinthecitybk2_teasingtheboss
+copyedit,romance,suspense,Tempting the Boss,"Crowe, Mallory",crowe_mallory_billionairesinthecitybk3_temptingtheboss
+copyedit,romance,suspense,Falling Secrets,"Crowe, Mallory",crowe_mallory_crossfallsbk1_fallingsecrets
+copyedit,romance,suspense,Falling Lies,"Crowe, Mallory",crowe_mallory_crossfallsbk2_fallinglies
+copyedit,romance,suspense,Falling Truth,"Crowe, Mallory",crowe_mallory_crossfallsbk3_fallingtruth
+copyedit,romance,action & adventure,Touching Jace,"Crowe, Mallory",crowe_mallory_devereauxbillionairesbk1_touchingjace
+copyedit,romance,suspense,Trusting Michael,"Crowe, Mallory",crowe_mallory_devereauxbillionairesbk2_trustingmichael
+copyedit,romance,suspense,Testing Luke,"Crowe, Mallory",crowe_mallory_devereauxbillionairesbk3_testingluke
+copyedit,romance,suspense,Taming Rourke,"Crowe, Mallory",crowe_mallory_devereauxbillionairesbk4_tamingrourke
+copyedit,romance,suspense,Ruthless,"Crowe, Mallory",crowe_mallory_fracturedfarrellsbk1_ruthless
+copyedit,romance,suspense,Reckless,"Crowe, Mallory",crowe_mallory_fracturedfarrellsbk2_reckless
+copyedit,romance,suspense,Remorseless,"Crowe, Mallory",crowe_mallory_fracturedfarrellsbk3_remorseless
+copyedit,romance,suspense,Restless,"Crowe, Mallory",crowe_mallory_fracturedfarrellsbk4_restless
+copyedit,romance,suspense,Relentless,"Crowe, Mallory",crowe_mallory_fracturedfarrellsbk5_relentless
+copyedit,romance,romantic comedy,Lucky Liar,"Crowe, Mallory",crowe_mallory_luckyalphasbk1_luckyliar
+copyedit,romance,romantic comedy,Lucky Girl,"Crowe, Mallory",crowe_mallory_luckyalphasbk2_luckygirl
+copyedit,romance,contemporary,Burning Love/Spark of Desire,"Crowe, Mallory",crowe_mallory_sparksofdesire_realmendoitbetter
+copyedit,romance,suspense,The Deadly Thief,"Crowe, Mallory",crowe_mallory_stolenheartsbk7_deadlythief
+copyedit,romance,suspense,The Arrogant Thief,"Crowe, Mallory",crowe_mallory_stolenheartsbk8_thearrogantthief
+copyedit,romance,suspense,The Perfect Lie,"Crowe, Mallory",crowe_mallory_theperfectlie_hopefalls_kindleworld
+copyedit,romance,suspense,The Cocky Thief,"Crowe, Mallory",crowe_mallory_thiefbk1_thecockythief
+copyedit,romance,suspense,The Beautiful Thief,"Crowe, Mallory",crowe_mallory_thiefbk2_thebeautifulthief
+copyedit,romance,suspense,The Dangerous Thief,"Crowe, Mallory",crowe_mallory_thiefbk3_thedangerousthief
+copyedit,romance,suspense,The Reluctant Thief,"Crowe, Mallory",crowe_mallory_thiefbk4_thereluctantthief
+copyedit,romance,suspense,The Vengeful Thief,"Crowe, Mallory",crowe_mallory_thiefbk5.0_thevengefulthief
+copyedit,romance,suspense,The Christmas Heist,"Crowe, Mallory",crowe_mallory_thiefbk5.5_thechristmasheistnovella
+copyedit,romance,suspense,The Cunning Thief,"Crowe, Mallory",crowe_mallory_thiefbk6_thecunningthief
+copyedit,science fiction & fantasy,paranormal,Capturing the Last Welsh Witch,"Davies, Jen",davies_jm_theriseoforionbk1_capturingthelastwelshwitch
+copyedit,science fiction & fantasy,paranormal,The Witch's Heart,"Davies, Jen",davies_jm_theriseoforionbk2_thewitchesheart
+copyedit,science fiction & fantasy,paranormal,Orion Series - Bk 3 Revenge of the Witch,"Davies, Jen",davies_jm_theriseoforionbk3_revengeofthewitch
+copyedit,romance,suspense,The Vineyards of Allegretti,"Davies, Jen",davies_jm_thevineyardsofallgretti
+copyedit,science fiction & fantasy,fantasy,Demon Breach,"Davis, JC",davis_jc_thedemonbreach
+proof,romance,erotica,Ski Slope Sparks,"DeBois, Monique",debois_monique_skislopesparks
+proof,romance,erotica,Lies,"DeBois, Monique",debois_monique_thearrangementlieskindleworlds
+proof,romance,erotica,The Arrangement,"DeBois, Monique",debois_monique_thearrangementsecretskindleworlds
+copyedit,fiction,general fiction,Keeper of the Innocent,"Dixon, Laryl",dixon_laryl_keeper
+copyedit,romance,clean & wholesome,Divorcing Amy,"Dove, Julieann",dove_julieann_amybk2_leavingamy
+copyedit,romance,clean & wholesome,Finding Amy,"Dove, Julieann",dove_julieann_amybk3_findingamy
+copyedit,romance,new adult & college,Rewrite the Stars,"Dove, Julieann",dove_julieann_rewritethestars
+copyedit,romance,clean & wholesome,Searching for Sarah,"Dove, Julieann",dove_julieann_sarahbk1_searchingforsarah
+copyedit,romance,clean & wholesome,Pursuing Sarah,"Dove, Julieann",dove_julieann_sarahbk2_pursuingsarah
+copyedit,romance,clean & wholesome,Falling For Sarah,"Dove, Julieann",dove_julieann_sarahbk3_fallingforsarah
+copyedit,romance,mystery & suspense,The Secret He Keeps,"Dove, Julieann",dove_julieann_thesecrethekeeps
+proof,romance,new adult & college,Paris Prats,"Ellery, Gwen",ellery_gwen_parisbrats_episode01
+copyedit,science fiction & fantasy,paranormal,Fatal Illusion,"Etherton, Tameri",etherton_tameri_fatalfaebk1_fatalillusion
+copyedit,science fiction & fantasy,paranormal,Fatal Assassin,"Etherton, Tameri",etherton_tameri_fatalfaebk2_fatalassassin
+proof,science fiction & fantasy,paranormal,The Prince of Dragons,"Etherton, Tameri",etherton_tameri_songofswords_bk1_theprinceofdragons
+proof,science fiction & fantasy,paranormal,The Stones of Resurrection,"Etherton, Tameri",etherton_tameri_songofswords_bk2_thestonesofresurrection
+proof,science fiction & fantasy,paranormal,The Temple of Sacrifice,"Etherton, Tameri",etherton_tameri_songofswords_bk3_thetempleofsacrifice
+proof,science fiction & fantasy,paranormal,Ruins of Betrayal,"Etherton, Tameri",etherton_tameri_songofswords_bk4_theruinsofbetrayal
+copyedit,fiction,general fiction,Infinite Summer,"Evans, Greta Rose",evans_greta_theinfinitesummer
+proof,romance,paranormal,Halls of Forever,"Faulkner, Linda",faulkner_linda_thehallsofforever
+proof,"action, mystery, suspense, thriller",crime fiction,Deadly Bloodlines,"Feuer, Elke",feuer_elke_deadlyseriesbk1_deadlybloodlines
+copyedit,"action, mystery, suspense, thriller",crime fiction,Deadly Race,"Feuer, Elke",feuer_elke_deadlyseriesbk2_deadlyrace
+proof,"action, mystery, suspense, thriller",crime fiction,Deadly Family,"Feuer, Elke",feuer_elke_deadlyseriesbk3_deadlyfamily
+proof,"action, mystery, suspense, thriller",thriller,A Second Chance,"Fonnesbeck, Mike",fonnesbeck_mike_asecondchance
+proof,romance,contemporary,Dangerous Grace,"Ford, Joan Riley",ford_riley_j_dangerousgrace
+proof,romance,new adult & college,Just Us Book 1,"Ford, Joan Riley",ford_riley_j_justusbook1
+proof,romance,new adult & college,Just Us Book 2,"Ford, Joan Riley",ford_riley_j_justusbook2
+proof,romance,contemporary,Romance Earthquake Love,"Ford, Joan Riley",ford_riley_j_romanceearthquakelove
+proof,romance,humor,Simone Christmas,"Ford, Joan Riley",ford_riley_j_simone_thechristmashunk
+proof,romance,humor,Simone Bk 1-5,"Ford, Joan Riley",ford_riley_j_simonebk1-5
+copyedit,"action, mystery, suspense, thriller",mystery,Dolce,"Victor, Fox",fox_victor_dolce
+copyedit,"action, mystery, suspense, thriller",crime fiction,PK - The WiFi Mystery,"Victor, Fox",fox_victor_petrabk1_thewifimystery
+copyedit,"action, mystery, suspense, thriller",crime fiction,Bluetooth Mystery,"Victor, Fox",fox_victor_petrabk2_thebluetoothmystery
+proof,romance,military,Ryder,"Freethy, Barbara",freethy_barbara_7bridesfor7soldiers_ryder
+proof,romance,romantic comedy,Falling Into You,"Freethy, Barbara",freethy_barbara_bachelorsandbridesmaidsbk5_fallingintoyou
+proof,romance,romantic comedy,Forever Starts Tonight,"Freethy, Barbara",freethy_barbara_bachelorsandbridesmaidsbk6_foreverstartstonight
+proof,romance,romantic suspense,Tender is the Night,"Freethy, Barbara",freethy_barbara_callawaysbk10_tenderisthenight
+proof,romance,suspense,Closer to You,"Freethy, Barbara",freethy_barbara_callawaysbk11_closertoyou
+proof,romance,romantic suspense,Once You're Mine,"Freethy, Barbara",freethy_barbara_callawaysbk12_onceyouremine
+proof,romance,suspense,Can't Let GO,"Freethy, Barbara",freethy_barbara_callawaysbk13_cantletgo
+proof,romance,romantic suspense,Secrets We Keep,"Freethy, Barbara",freethy_barbara_callawaysbk14_thesecretswekeep
+proof,romance,military,If I Didn't Know Better,"Freethy, Barbara",freethy_barbara_callawaysbk9_ifididn'tknowbetter
+proof,romance,romantic suspense,Beautiful Storm,"Freethy, Barbara",freethy_barbara_lightningstrikesbk1_beautifulstorm
+proof,romance,romantic suspense,Lightning Lingers,"Freethy, Barbara",freethy_barbara_lightningstrikesbk2_lightninglingers
+proof,romance,romantic suspense,Summer Rain,"Freethy, Barbara",freethy_barbara_lightningstrikesbk3_summerrain
+proof,romance,romantic suspense,Perilous Trust,"Freethy, Barbara",freethy_barbara_offthegridbk1_periloustrust
+proof,romance,romantic suspense,Reckless Whisper,"Freethy, Barbara",freethy_barbara_offthegridbk2_recklesswhisper
+proof,romance,romantic suspense,Desperate Play,"Freethy, Barbara",freethy_barbara_offthegridbk3_desperateplay
+proof,romance,romantic suspense,Elusive Promise,"Freethy, Barbara",freethy_barbara_offthegridbk4_elusivepromise
+proof,romance,contemporary,Luke - 7 Brides for 7 Brothers,"Freethy, Barbara",freethy_barbara_sevenbridesforsevenbrothers_luke
+proof,romance,clean & wholesome,Sweet Somethings,"Freethy, Barbara",freethy_barbara_sweetsomethings
+proof,romance,contemporary,Take Me Home,"Freethy, Barbara",freethy_barbara_takemehome
+proof,romance,western,Montana Dawn,"Fyffe, Caroline",fyffe_caroline_montanadawn
+proof,romance,western,Where the Wind Blows,"Fyffe, Caroline",fyffe_caroline_wherethewindblows
+copyedit,romance,contemporary,Wilderness Borne,Gabby Green,gabbygreen_mikayla_wildernessborne
+copyedit,romance,contemporary,Christmas Future,"Garcia, Rita",garcia_rita_achristmasfuture
+copyedit,romance,contemporary,Kaleidoscope Summer,"Garcia, Rita",garcia_rita_kaleidoscopesummer
+copyedit,romance,contemporary,Lavender Rain,"Garcia, Rita",garcia_rita_lavenderrain
+copyedit,romance,contemporary,Tangerine Morning,"Garcia, Rita",garcia_rita_tangerinemorning
+copyedit,science fiction & fantasy,science fiction,Finding Trust,"Gayle, Natalie",gayle_natalie_centregamesseriesbk1_findingtrust
+copyedit,science fiction & fantasy,science fiction,Finding Judgement,"Gayle, Natalie",gayle_natalie_centregamesseriesbk2_findingjudgement
+copyedit,science fiction & fantasy,science fiction,Finding Freedom,"Gayle, Natalie",gayle_natalie_centregamesseriesbk3_findingfreedom
+copyedit,science fiction & fantasy,science fiction,Finding Resolution,"Gayle, Natalie",gayle_natalie_centregamesseriesbk4_findingresolution
+copyedit,romance,contemporary,All In,"Giroux, LC",giroux_lc_allin
+proof,romance,contemporary,And Keep Her,"Giroux, LC",giroux_lc_andkeepher
+proof,romance,contemporary,Cupid Must Be Irish,"Giroux, LC",giroux_lc_cupidmustbeirish
+proof,romance,contemporary,Fall Into His Arms,"Giroux, LC",giroux_lc_fallintohisarms
+proof,romance,contemporary,Love Stranger Than Fiction,"Giroux, LC",giroux_lc_lovestrangerthanfiction
+proof,romance,contemporary,Second Chance at Salvation,"Giroux, LC",giroux_lc_secondchanceatsalvation
+proof,romance,contemporary,Skater's Girl,"Giroux, LC",giroux_lc_skater'sgirl
+copyedit,romance,contemporary,The Day Before The Night Before Christmas,"Giroux, LC",giroux_lc_thedaybeforethenightbeforechristmas
+proof,romance,contemporary,Where's My Cowboy,"Giroux, LC",giroux_lc_wheresmycowboy
+copyedit,fiction,general fiction,The Sixteen Rule,"Gonzalez, Evelyn",gonzalez_eveyln_the16rule
+copyedit,"action, mystery, suspense, thriller",military,Going Dark,"Grace, Jolene",grace_jolene_gabrieljets_bk1_goingdark
+copyedit,romance,romantic suspense,Grave Danger,"Grant, Rachel",grant_rachel_gravedanger
+copyedit,"action, mystery, suspense, thriller",crime fiction,Girl Jacked,"Greyson, Chris",greyson_christopher_jackstrattonbk1_girljacked
+copyedit,"action, mystery, suspense, thriller",crime fiction,Jack Knifed,"Greyson, Chris",greyson_christopher_jackstrattonbk2_jackknifed
+copyedit,"action, mystery, suspense, thriller",crime fiction,Jacks Are Wild,"Greyson, Chris",greyson_christopher_jackstrattonbk3_jacksarewild
+copyedit,"action, mystery, suspense, thriller",crime fiction,Jack and the Giant Killer,"Greyson, Chris",greyson_christopher_jackstrattonbk4_jackandthegiantkiller
+copyedit,"action, mystery, suspense, thriller",crime fiction,Data Jack,"Greyson, Chris",greyson_christopher_jackstrattonbk5_datajack
+copyedit,"action, mystery, suspense, thriller",crime fiction,Just Jack,"Greyson, Chris",greyson_christopher_jackstrattonbk6_justjack
+copyedit,"action, mystery, suspense, thriller",crime fiction,Jack of Hearts,"Greyson, Chris",greyson_christopher_jackstrattonbk7_jackofhearts
+copyedit,science fiction & fantasy,paranormal,Pure of Heart,"Greyson, Chris",greyson_christopher_pureofheart
+proof,science fiction & fantasy,science fiction,Biomech Bk 1,"Halstead, Jason",halstead_jason_biomechseriesbk1_transcendent
+proof,science fiction & fantasy,science fiction,Cookie Cutter Bk. 1,"Halstead, Jason",halstead_jason_cookiecuttersseriesbk1_whenthecookiecrumbles
+proof,science fiction & fantasy,science fiction,Guardian Angel,"Halstead, Jason",halstead_jason_darkearthlostgirlsseriesbk5_guardian
+proof,science fiction & fantasy,science fiction,Soul Mates,"Halstead, Jason",halstead_jason_darkearthseriesbk3_soulmates
+proof,science fiction & fantasy,science fiction,Into the Dark,"Halstead, Jason",halstead_jason_darkuniversbk1_intothedark
+proof,science fiction & fantasy,science fiction,Out of the Dark,"Halstead, Jason",halstead_jason_darkuniversebk2_outofthedark
+proof,science fiction & fantasy,science fiction,Chasing the Dark,"Halstead, Jason",halstead_jason_darkuniversebk3_chasingthedark
+proof,science fiction & fantasy,science fiction,Dark Star,"Halstead, Jason",halstead_jason_darkuniversebk4_darkstar
+proof,science fiction & fantasy,science fiction,Shades of Dark,"Halstead, Jason",halstead_jason_darkuniversebk5_shadesofdark
+proof,science fiction & fantasy,science fiction,Lucky Star,"Halstead, Jason",halstead_jason_darkuniversebk6_luckystar
+proof,romance,erotica,Forbidden Love,"Halstead, Jason",halstead_jason_homelandseriesbk1_forbiddenlove
+proof,romance,erotica,Broken Slipper,"Halstead, Jason",halstead_jason_homelandseriesbk2_brokenslipper
+proof,science fiction & fantasy,science fiction,Frozen Dreams,"Halstead, Jason",halstead_jason_terminusbk3_frozendreams
+proof,science fiction & fantasy,science fiction,The Vault,"Halstead, Jason",halstead_jason_thevault
+proof,science fiction & fantasy,science fiction,Vitalis Pt. 1 - New Beginning,"Halstead, Jason",halstead_jason_vitalisbk1_vitalis
+proof,science fiction & fantasy,science fiction,Vitalis Bk 16 Miss Fortune,"Halstead, Jason",halstead_jason_vitalisbk10_missfortune
+proof,science fiction & fantasy,science fiction,Vitalis 9,"Halstead, Jason",halstead_jason_vitalisbk3_provenance
+proof,science fiction & fantasy,science fiction,Vitalis Genesis,"Halstead, Jason",halstead_jason_vitalisbk4_genesis
+proof,science fiction & fantasy,science fiction,Vitalis Invasion,"Halstead, Jason",halstead_jason_vitalisbk5_invasion
+proof,science fiction & fantasy,science fiction,Vitalis Chrysalis Bk 12,"Halstead, Jason",halstead_jason_vitalisbk6_chrysalis
+proof,science fiction & fantasy,science fiction,Vitalis 13: Communion,"Halstead, Jason",halstead_jason_vitalisbk7_communion
+proof,science fiction & fantasy,science fiction,Vitalis Commandos,"Halstead, Jason",halstead_jason_vitalisbk8_commandos
+proof,science fiction & fantasy,science fiction,Vitalis: Valkryies,"Halstead, Jason",halstead_jason_vitalisbk9_valkeryies
+proof,science fiction & fantasy,science fiction,Voidhawk: The Edge of Forever,"Halstead, Jason",halstead_jason_voidhawkbk6_theedgeofforever
+proof,science fiction & fantasy,science fiction,Broken Shards,"Halstead, Jason",halstead_jason_voidhawkbk7_brokenshards
+proof,science fiction & fantasy,science fiction,Fallen Goddess,"Halstead, Jason",halstead_jason_voidhawkbk8_fallengoddess
+proof,science fiction & fantasy,science fiction,Queen of Spiders,"Halstead, Jason",halstead_jason_voidhawkbk9_queenofspiders
+proof,science fiction & fantasy,science fiction,Bounty,"Halstead, Jason",halstead_jason_wantedbk3_bounty
+proof,science fiction & fantasy,science fiction,Marshal,"Halstead, Jason",halstead_jason_wantedbk4_marshal
+proof,science fiction & fantasy,science fiction,Child of Fate Bk1,"Halstead, Jason",halstead_jason_worldofkrothbk1_childoffate
+proof,science fiction & fantasy,science fiction,Victim of Fate,"Halstead, Jason",halstead_jason_worldofkrothbk2_victimoffate
+proof,science fiction & fantasy,science fiction,Silver Dragon,"Halstead, Jason",halstead_jason_worldofkrothbk3_silverdragon
+proof,science fiction & fantasy,science fiction,Isle of the Ape,"Halstead, Jason",halstead_jason_worldofkrothbk4_isleoftheape
+proof,science fiction & fantasy,science fiction,Chasing the Dragon,"Halstead, Jason",halstead_jason_worldofkrothbk5_chasingthedragon
+proof,science fiction & fantasy,science fiction,Sands of Betrayal,"Halstead, Jason",halstead_jason_worldofkrothbk6_sandsofbetrayal
+proof,science fiction & fantasy,science fiction,Dragonlady,"Halstead, Jason",halstead_jason_worldofkrothbk7_dragonlady
+proof,science fiction & fantasy,science fiction,Servant of the Serpent,"Halstead, Jason",halstead_jason_worldofkrothbk8_servantoftheserpent
+proof,science fiction & fantasy,science fiction,Rise of the Serpent,"Halstead, Jason",halstead_jason_worldofkrothbk9_riseoftheserpent
+copyedit,science fiction & fantasy,science fiction,Eon - Earl E Hardman,"Hardman, Earl E",hardman_earl_e_chronosringbk1_eon
+proof,science fiction & fantasy,science fiction,Infinity,"Hardman, Earl E",hardman_earl_e_chronosringbk2_infinity
+proof,science fiction & fantasy,science fiction,Terminus,"Hardman, Kevin",hardman_kevin_fringeworldsbk1_terminus
+proof,science fiction & fantasy,science fiction,Efferus,"Hardman, Kevin",hardman_kevin_fringeworldsbk2_efferus
+proof,science fiction & fantasy,superhero,Sensation,"Hardman, Kevin",hardman_kevin_kidsensationbk1_sensation
+proof,science fiction & fantasy,superhero,Mutation,"Hardman, Kevin",hardman_kevin_kidsensationbk2_mutation
+proof,science fiction & fantasy,superhero,Infiltration,"Hardman, Kevin",hardman_kevin_kidsensationbk3_infiltration
+proof,science fiction & fantasy,superhero,Revelation,"Hardman, Kevin",hardman_kevin_kidsensationbk4_revelation
+proof,science fiction & fantasy,superhero,Coronation,"Hardman, Kevin",hardman_kevin_kidsensationbk5_coronation
+proof,science fiction & fantasy,superhero,Amped,"Hardman, Kevin",hardman_kevin_kidsensationworld_amped
+proof,science fiction & fantasy,superhero,Extraction,"Hardman, Kevin",hardman_kevin_kidsensationworld_extraction
+proof,science fiction & fantasy,superhero,Mouse's Tale,"Hardman, Kevin",hardman_kevin_kidsensationworld_mousestale
+proof,science fiction & fantasy,fantasy,Warden,"Hardman, Kevin",hardman_kevin_wardenbk1_warden
+proof,science fiction & fantasy,fantasy,Warden: Lure of Lamia,"Hardman, Kevin",hardman_kevin_wardenbk2_lamia
+proof,science fiction & fantasy,fantasy,Warden Bk 3 Aswang,"Hardman, Kevin",hardman_kevin_wardenbk3_aswang
+copyedit,romance,contemporary,Call Me Lorna,"Harte, Tempest",harte_tempest_callmelorna
+proof,romance,fantasy,Djinn Betrayal,"Harte, Tempest",harte_tempest_djinnbetrayal
+proof,romance,fantasy,Djinn Fantasy,"Harte, Tempest",harte_tempest_djinnfantasy
+copyedit,romance,contemporary,Hey Cupcake,"Harte, Tempest",harte_tempest_heycupcake
+proof,romance,fantasy,Nymph of Djinn,"Harte, Tempest",harte_tempest_nymphofdjinn
+proof,romance,fantasy,Wicked Djinn,"Harte, Tempest",harte_tempest_wickeddjinn
+proof,"action, mystery, suspense, thriller",mystery,Murder At Newberry's,"Heusler, Marianna",heulser_marianna_murderatnewberrys
+copyedit,"action, mystery, suspense, thriller",horror,The Witch's Crawl,"Hicks, Nikki",hicks_nd_thewitchscrawl_book1
+copyedit,"action, mystery, suspense, thriller",horror,The Witch's Crawl Bk 2,"Hicks, Nikki",hicks_nd_thewitchscrawl_book2
+copyedit,"action, mystery, suspense, thriller",suspense,The Identity,"Hicks, Nikki",hicks_nikki_theidentity_partone
+copyedit,"action, mystery, suspense, thriller",suspense,The Identity Book 2,"Hicks, Nikki",hicks_nikki_theidentity_parttwo
+copyedit,romance,historical,Belle of Charleston,"Hines, Jerri",hines_jerri_southernlegacy_bk1belleofcharleston
+copyedit,romance,historical,Shadows of Magnolia,"Hines, Jerri",hines_jerri_southernlegacy_bk2shadowsofmagnolia
+copyedit,romance,historical,Born to be Brothers,"Hines, Jerri",hines_jerri_southernlegacy_bk3borntobebrothers
+copyedit,romance,historical,The Sun Rises,"Hines, Jerri",hines_jerri_southernlegacy_bk4thesunrises
+copyedit,romance,historical,The Heavens Shall Fall,"Hines, Jerri",hines_jerri_windsofbetrayal_bk3theheavensshallfall
+copyedit,romance,historical,Set Fire to the Rain,"Hines, Jerri",hines_jerri_windsofbetrayal_bk4setfiretotherain
+proof,romance,contemporary,Before the Storm,"Holmes, Steena",holmes_steena_beforethestorm
+copyedit,romance,contemporary,Megan's Hope,"Holmes, Steena",holmes_steena_meganshope
+copyedit,romance,contemporary,Return To Sender,"Holmes, Steena",holmes_steena_returntosender_invitationtoeden
+copyedit,romance,contemporary,Sweet Dreams,"Holmes, Steena",holmes_steena_sweetdreams
+copyedit,romance,contemporary,The Wedding dare,"Holmes, Steena",holmes_steena_theweddingdarefourweddingsandafiasco
+proof,romance,historical,The Pirate's Jewel,"Howe, Cheryl",howe_cheryl_thepiratesjewel
+copyedit,romance,contemporary,The Corner Booth,"Ilebode, Kelly",ilebode_kelly_carrasenterprisebk1_thecornerbooth
+copyedit,romance,contemporary,The Chameleon,"Ilebode, Kelly",ilebode_kelly_carrasenterprisebk2_thechameleon
+copyedit,romance,contemporary,Destiny,"Ilebode, Kelly",ilebode_kelly_carrasenterprisebk3_destiny
+proof,romance,romantic suspense,In  Search of Grace,"Ilebode, Kelly",ilebode_kelly_insearchofgrace
+proof,science fiction & fantasy,metaphyscial,Kelly and the Angel,"Ilebode, Kelly",ilebode_kelly_kellyandtheangelbk1_thebirthofthesparrow
+copyedit,science fiction & fantasy,metaphyscial,The Flight of the Sparrow,"Ilebode, Kelly",ilebode_kelly_kellyandtheangelbk2_theflightofthesparrow
+proof,science fiction & fantasy,paranormal,Dragan's Redemption,"Ilebode, Kelly",ilebode_kelly_manorechobk1_dragonsredemption
+proof,science fiction & fantasy,paranormal,Aaron's Revenge,"Ilebode, Kelly",ilebode_kelly_manorechobk2_aaronsrevenge
+proof,science fiction & fantasy,paranormal,The Legacy,"Ilebode, Kelly",ilebode_kelly_manorechobk3_thelegacy
+copyedit,romance,contemporary,The Turning Point,"Ilebode, Kelly",ilebode_kelly_theturningpoint
+proof,science fiction & fantasy,paranormal,Transitory - The Prism,"Jordan, Katina",jordan_km_transitory_theprism
+copyedit,romance,contemporary,Spiraling Deception,"Kahika, Noree",kahika_noree_spiralingdeception
+copyedit,romance,contemporary,Heart of Stone,"Kahika, Noree",kahika_noree_stoneseriesbk1_heartofstone
+copyedit,romance,contemporary,Carved in Stone,"Kahika, Noree",kahika_noree_stoneseriesbk2_carvedinstone
+proof,romance,erotica,Laws of Attraction,"Kauffman, Crystal",kauffman_crystal_lawsofattraction
+copyedit,romance,paranormal,Cub Club,"Kelly, Ardy",kelly_ardy_thecubclub
+copyedit,romance,romantic comedy,Best Laid Plans,"Kelly, Robyn",kelly_robyn_bestlaidplans_book1
+copyedit,romance,romantic comedy,Best Laid Plans: Going Awry,"Kelly, Robyn",kelly_robyn_bestlaidplans_book2goingawry
+copyedit,romance,romantic comedy,Best Laid Hopes,"Kelly, Robyn",kelly_robyn_bestlaidplans_book3bestlaidhopes
+copyedit,romance,romantic comedy,Best Laid Dreams,"Kelly, Robyn",kelly_robyn_bestlaidplans_book4bestlaiddreams
+copyedit,fiction,general fiction,Celia's Shadow,"Kirschenbaum, Sandy",kirschenbaum_sandy_celiasshadow
+copyedit,romance,contemporary,Inheritance of the Heart,"Koopsman, Jessica",koopmans_jessica_inheritanceoftheheart
+copyedit,science fiction & fantasy,science fiction,Extinction,"Korza, Jay",korza_jay_extinction_bk1
+copyedit,science fiction & fantasy,science fiction,Extinction Rise of the Cherta,"Korza, Jay",korza_jay_extinction_bk2thewilloftheprotectors
+copyedit,"action, mystery, suspense, thriller",crime fiction,The Scent of a Killer,"Korza, Jay",korza_jay_scentofakiller
+copyedit,science fiction & fantasy,science fiction,This Is Not What I Wished For,"Korza, Jay",korza_jay_thisisnotwhatiwishedfor
+copyedit,fiction,general fiction,Smart Blondes,"Koso, Sonia",koso_sonia_smartblondes
+proof,science fiction & fantasy,metaphyscial,Reap Not the Dragon,"Kristi, Debra",kristi_debra_reapnotthedragon
+copyedit,romance,multicultural,A Bride for the Sheikh,"Lane, Katheryn",lane_katheryn_abrideforthesheikh
+copyedit,romance,multicultural,Kidnapped by the Sheikh,"Lane, Katheryn",lane_katheryn_kidnappedbythesheikh
+copyedit,romance,multicultural,The Desert Sheikh,"Lane, Katheryn",lane_katheryn_thedesertsheikh
+copyedit,romance,western,The Texas Cowboy,"Lane, Katheryn",lane_katheryn_thetexascowboy
+copyedit,romance,multicultural,Trapped by the Sheikh,"Lane, Katheryn",lane_katheryn_trappedbythesheikh
+copyedit,romance,multicultural,The Sheikh's Beloved,"Lane, Katheryn",lane_kathryn_thesheikhsbeloved
+proof,romance,action & adventure,Bounty Hunter/Murhpy's Law,"LeClair, Laurie",leclair_laurie_bountyhunter_bk1murphyslaw
+proof,romance,action & adventure,Riley's Rules,"LeClair, Laurie",leclair_laurie_bountyhunter_bk2rileysrules
+proof,romance,fairy tale,If the Shoe Fits,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk1_iftheshoefits
+copyedit,romance,fairy tale,Baking from the Hart,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk10_bakingfromthehart
+copyedit,romance,fairy tale,Melting Her Heart,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk11_meltingherheart
+copyedit,romance,fairy tale,Princess in Hiding,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk12_princessinhiding
+copyedit,romance,fairy tale,Her Frog Prince,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk13_herfrogprince
+copyedit,romance,fairy tale,Forget Me Not,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk14_forgetmenot
+proof,romance,fairy tale,Waking Sleeping Beauty,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk2_wakingsleepingbeauty
+proof,romance,fairy tale,Taming McGruff,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk3_tamingmcgruff
+proof,romance,fairy tale,The Reluctant Beauty,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk4_thereluctantbeauty
+proof,romance,fairy tale,Awakened by a Kiss,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk5_awakenedbyakiss
+proof,romance,fairy tale,Tangled at First Sight,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk6_tangledatfirstsight
+proof,romance,fairy tale,Finding Mr. Just Right,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk7_findingmrjustright
+proof,romance,fairy tale,Making A Splash,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk8_makingasplash
+proof,romance,fairy tale,Hoodwinked by a Wolfe,"LeClair, Laurie",leclair_laurie_onceuponaromance_bk9_hoodwinkedbyawolfe
+proof,romance,contemporary,Runaway Wife,"LeClair, Laurie",leclair_laurie_runawaywife
+proof,romance,contemporary,The Dating Dilemma,"LeClair, Laurie",leclair_laurie_sweetspotbk1_thedatingdilemma
+proof,romance,contemporary,Sweet Summertime,"LeClair, Laurie",leclair_laurie_sweetsummertime
+proof,romance,western,The Callahans,"LeClair, Laurie",leclair_laurie_thecallahans0.5_prequel
+proof,romance,western,Travis,"LeClair, Laurie",leclair_laurie_thecallahans1_travis
+proof,romance,western,Cassie,"LeClair, Laurie",leclair_laurie_thecallahans2_cassie
+copyedit,romance,contemporary,The Gift of Hope,"LeClair, Laurie",leclair_laurie_thegiftofhope
+proof,romance,contemporary,The Heart Remebers,"LeClair, Laurie",leclair_laurie_theheartremembers
+proof,romance,contemporary,The Long Journey Home,"LeClair, Laurie",leclair_laurie_thelongjourneyhome
+proof,romance,contemporary,The Bachelor and the Bride,"LeClair, Laurie",leclair_laurie_verycharmingwedding_bk1thebachelorandthebride
+proof,romance,contemporary,The Boss and the Bride,"LeClair, Laurie",leclair_laurie_verycharmingwedding_bk2thebossandthebride
+proof,romance,contemporary,The Bodyguard and the Bride,"LeClair, Laurie",leclair_laurie_verycharmingwedding_bk3thebodyguardandthebride
+proof,romance,contemporary,Wanted: Fairy Godmother,"LeClair, Laurie",leclair_laurie_wantedfairygodmother
+proof,"action, mystery, suspense, thriller",crime fiction,Emboozlement,"Leder, Rich",leder_rich_mccallcompanybk2_emboozlement
+copyedit,romance,erotica,Unspoken,"Lee, Jesi",lee_jesi_unspoken
+copyedit,romance,military,Jack,"London, Julia",london_julia_7bridesfor7soldiers_jack
+copyedit,romance,action & adventure,Edge of the Season,"Loye, Trish",loye_trish_edgeseriesbk4_edgeoftheseason
+copyedit,romance,action & adventure,EDGE of Courage,"Loye, Trish",loye_trish_edgeseriesbk5_edgeofcourage
+copyedit,romance,action & adventure,EDGE of Fury,"Loye, Trish",loye_trish_edgeseriesbk7_edgeoffury
+copyedit,romance,action & adventure,EDGE of Defiance + Christmas SS,"Loye, Trish",loye_trish_edgeseriesbk8_edgesecuritythebeginning
+copyedit,romance,action & adventure,Edge of Defiance,"Loye, Trish",loye_trish_edgeseriesbk9_edgeofdefiance
+proof,romance,contemporary,Passion ,"MacKay, Cali",mackay_cali_billionairesseductionbk1_passion
+proof,romance,contemporary,Obession,"MacKay, Cali",mackay_cali_billionairesseductionbk2_obession
+proof,romance,contemporary,Seduction,"MacKay, Cali",mackay_cali_billionairesseductionbk3_seduction
+proof,romance,contemporary,Temptation,"MacKay, Cali",mackay_cali_billionairesseductionbk4_temptation
+proof,romance,contemporary,Seduction and Surrender,"MacKay, Cali",mackay_cali_billionairestemptationbk1_seductionandsurrender
+proof,romance,contemporary,Billionaire and Detective,"MacKay, Cali",mackay_cali_billionairestemptationbk2_submissionandsurrender
+proof,romance,contemporary,Love and Surrender,"MacKay, Cali",mackay_cali_billionairestemptationbk3_loveandsurrender
+proof,romance,contemporary,Deception and Surrender,"MacKay, Cali",mackay_cali_billionairestemptationbk4_deceptionandsurrender
+proof,romance,contemporary,Ravage and Surrender,"MacKay, Cali",mackay_cali_billionairestemptationbk5_ravageandsurrender
+proof,romance,contemporary,Passion and Surrender,"MacKay, Cali",mackay_cali_billionairestemptationbk6_passionandsurrender
+proof,romance,contemporary,Forced,"MacKay, Cali",mackay_cali_blackthornbrothers_bk1forced
+proof,romance,contemporary,Shattered,"MacKay, Cali",mackay_cali_blackthornbrothers_bk2shattered
+proof,romance,contemporary,Vengeance,"MacKay, Cali",mackay_cali_blackthornbrothers_bk3vengeance
+proof,romance,contemporary,Scorch,"MacKay, Cali",mackay_cali_blackthornbrothers_bk4scorch
+proof,romance,contemporary,Slater,"MacKay, Cali",mackay_cali_blackthornbrothers_bk5falling
+proof,romance,romantic suspense,Forbidden Part 1,"MacKay, Cali",mackay_cali_forbiddenpart1
+proof,romance,romantic suspense,Forbidden Part 2,"MacKay, Cali",mackay_cali_forbiddenpart2
+proof,romance,romantic suspense,Forbidden Pt 3,"MacKay, Cali",mackay_cali_forbiddenpart3
+proof,romance,romantic suspense,Forbidden Part 4,"MacKay, Cali",mackay_cali_forbiddenpart4
+proof,romance,contemporary,Highland Heist,"MacKay, Cali",mackay_cali_highlandheartbk3_ahighlandheist
+proof,romance,paranormal,Ghost Flip,"Taylor, Cali",mackay_cali_lovepossessedseriesbk1_hauntedlove
+proof,romance,contemporary,Maine Bk. 1,"MacKay, Cali",mackay_cali_mermaidislebk1_onesweetsummer
+proof,romance,contemporary,Maine Bk. 2,"MacKay, Cali",mackay_cali_mermaidislebk2_forloveortreasure
+proof,romance,contemporary,Maine Bk 3,"MacKay, Cali",mackay_cali_mermaidislebk3_sweetdanger
+proof,romance,paranormal,Greyson Part 1,"MacKay, Cali",mackay_cali_silvermoon_greyson_part1
+proof,romance,paranormal,Greyson Part 2,"MacKay, Cali",mackay_cali_silvermoon_greyson_part2
+proof,romance,paranormal,Greyson Part 3,"MacKay, Cali",mackay_cali_silvermoon_greyson_part3
+proof,romance,paranormal,Greyson Part 4,"MacKay, Cali",mackay_cali_silvermoon_greyson_part4
+proof,romance,paranormal,Ryder,"MacKay, Cali",mackay_cali_silvermoon_ryder
+proof,romance,paranormal,Thayer,"MacKay, Cali",mackay_cali_silvermoon_thayer
+proof,romance,lgbt,Taken Back,"MacKay, Cali",mackay_cali_takenseriesbk1_takenback
+proof,romance,lgbt,Taken Again,"MacKay, Cali",mackay_cali_takenseriesbk2_takenagain
+proof,romance,erotica,Pirate and the Fiesty Maid,"MacKay, Cali",mackay_cali_thepirateandthefiestymaid_pt3
+proof,science fiction & fantasy,paranormal,Divarian Bk 1 - Willow,"McMillin, Sue",mcmillin_sue_divarianbk1_willow
+proof,science fiction & fantasy,paranormal,Divarian Bk 2 - Crossing,"McMillin, Sue",mcmillin_sue_divarianbk2_crossing
+proof,science fiction & fantasy,paranormal,Divarian Bk 3 - Fractured,"McMillin, Sue",mcmillin_sue_divarianbk3_fractured
+proof,science fiction & fantasy,paranormal,Divarian Bk 4 - Unveiled,"McMillin, Sue",mcmillin_sue_divarianbk4_unveiled
+proof,science fiction & fantasy,paranormal,Claimed by the Beast Bk 1,"Michelle, Dawn",michelle_dawn_claimedbythebeastbk1
+proof,science fiction & fantasy,paranormal,Claimed by the Beast Bk 2,"Michelle, Dawn",michelle_dawn_claimedbythebeastbk2
+proof,science fiction & fantasy,paranormal,Claimed by the Beast Bk 3,"Michelle, Dawn",michelle_dawn_claimedbythebeastbk3
+proof,science fiction & fantasy,paranormal,Claimed by the Beast Bk 4,"Michelle, Dawn",michelle_dawn_claimedbythebeastbk4
+proof,science fiction & fantasy,paranormal,Claimed by the Beast Bk 5,"Michelle, Dawn",michelle_dawn_claimedbythebeastbk5
+proof,science fiction & fantasy,paranormal,Claimed by the Beast Bk 6,"Michelle, Dawn",michelle_dawn_claimedbythebeastbk6
+proof,science fiction & fantasy,paranormal,Taken By the Beast,"Halstead, Jason",michelle_dawn_takenbythebeast
+proof,fiction,general fiction,Crocodile Rock,"Napier, Julie",napier_julie_crocodilerock
+proof,fiction,general fiction,Tender Thorn,"Napier, Julie",napier_julie_tenderthorn
+copyedit,"action, mystery, suspense, thriller",crime fiction,Wholesome,"Nehring, Deena",nehring_deena_wholesome
+proof,romance,erotica,Developing Cassandra,"Hart, Niki",niki_hart_developingcassandra
+copyedit,"action, mystery, suspense, thriller",crime fiction,Once Upon A Time in LA,"Paar, Howard",paar_howard_onceuponatimeinla
+proof,"action, mystery, suspense, thriller",crime fiction,You Know Who I Am,"Patterson, Diane",patterson_diane_drusillathornemysteriesbk1_youknowwhoiam
+proof,"action, mystery, suspense, thriller",crime fiction,The Sound of Footsteps,"Patterson, Diane",patterson_diane_druslliathornemysteriesbk.5_thesoundoffootsteps
+copyedit,science fiction & fantasy,fantasy,The Watcher of the Night Sky,"Pudsey, Rachel",pudsey_rachel_aroniaseriesbk1_thewatcherofthenightsky
+copyedit,science fiction & fantasy,fantasy,The Faelti,"Pudsey, Rachel",pudsey_rachel_aroniaseriesbk2_thefaelti
+copyedit,fiction,contemporary,Baggage Check,"Pullen, MJ",pullen_mj_baggagecheck
+copyedit,romance,new adult & college,City of Yes,"Pullen, MJ",pullen_mj_cityofyes
+copyedit,romance,romantic comedy,Every Other Saturday,"Pullen, MJ",pullen_mj_everyothersaturday
+copyedit,romance,contemporary,Regrets Only,"Pullen, MJ",pullen_mj_regretsonly
+copyedit,romance,contemporary,Sugar Street,"Pullen, MJ",pullen_mj_sugarstreet
+copyedit,romance,contemporary,The Marriage Pact,"Pullen, MJ",pullen_mj_themarriagepact
+copyedit,romance,contemporary,She's Got It All,"Quinlan, Jewel",quinlan_jewel_she'sgotitall
+copyedit,science fiction & fantasy,paranormal,Surrender Sweet Succubus,"Quinlan, Jewel",quinlan_jewel_surrendersweetsuccubus
+proof,romance,romantic comedy,A Knight in Central Park,"Ragan, Theresa",ragan_theresa_aknightincentralpark
+proof,romance,contemporary,An Offer He Can't Refuse,"Ragan, Theresa",ragan_theresa_anofferhecantrefuse
+copyedit,"action, mystery, suspense, thriller",mystery,Finding Kate Huntley,"Ragan, Theresa",ragan_theresa_findingkatehuntley
+proof,romance,contemporary,Having My Baby,"Ragan, Theresa",ragan_theresa_havingmybaby
+proof,romance,contemporary,Here Comes the Bride,"Ragan, Theresa",ragan_theresa_herecomesthebride
+proof,romance,paranormal,Return of the Rose,"Ragan, Theresa",ragan_theresa_returnoftherose
+copyedit,romance,contemporary,Taming Mad Max,"Ragan, Theresa",ragan_theresa_tamingmadmax
+copyedit,romance,contemporary,Gambling On Love,"Reeves, Kimberley",reeves_kimberly_gamblingonlove
+copyedit,fiction,women's fiction,Ambush Road,"Schutter, CW",schutter_cw_ambushroad
+copyedit,science fiction & fantasy,fantasy,War of Angels/School of Shadows,"Schutter, CW",schutter_cw_schoolofshadows
+proof,romance,contemporary,Heart of The Billioniare,"Scott, JS",scott_js_billionairesobsessionbk2_heartofthebillionaire_sam
+proof,romance,contemporary,Billionaires_Obsession_BoxedSet,"Scott, JS",scott_js_billionairesobsessionboxedsetbooks1-4_simon
+proof,romance,contemporary,Billionaire's Salvation,"Scott, JS",scott_js_billionairessalvation_max
+proof,romance,contemporary,Billionaire Unbound - Chloe & Gabe,"Scott, JS",scott_js_billionaireunbound_chloe
+proof,romance,contemporary,Billionaire Unchallenged,"Scott, JS",scott_js_billionaireunchallenged_carter
+proof,romance,contemporary,Billionaire Undaunted - Zane,"Scott, JS",scott_js_billionaireundaunted_zane
+proof,romance,contemporary,Billionaire Undone,"Scott, JS",scott_js_billionaireundone_travis
+proof,romance,contemporary,Billionaire Unknown - Blake,"Scott, JS",scott_js_billionaireunknown
+proof,romance,contemporary,Billionaire Unloved,"Scott, JS",scott_js_billionaireunloved_jet
+copyedit,romance,contemporary,Billionaire Unmasked,"Scott, JS",scott_js_billionaireunmasked_jason
+copyedit,romance,contemporary,Billionaire Untamed,"Scott, JS",scott_js_billionaireuntamed_tate
+proof,romance,contemporary,Billionaire Unveiled,"Scott, JS",scott_js_billionaireunveiled_marcus
+proof,romance,contemporary,Temporary Groom,"Scott, JS",scott_js_leftatthealtarbk1_temporarygroom
+proof,romance,paranormal,A Dangerous Bargain,"Scott, JS",scott_js_sentineldemonsbk1_adangerousbargain
+proof,romance,paranormal,A Dangerous Hunger,"Scott, JS",scott_js_sentineldemonsbk2_adangeroushunger
+proof,romance,paranormal,A Dangerous Fury,"Scott, JS",scott_js_sentineldemonsbk3_adangerousfury
+proof,romance,contemporary,Billionaire's Game - Kade,"Scott, JS",scott_js_thebillionairesgame_kade
+copyedit,romance,lgbt,Four Wheel Flying,"Sexton, Dan",sexton_dan_fourwheelflying
+copyedit,"action, mystery, suspense, thriller",crime fiction,Codename: Chandler - Deadly/Nasty,"Sharp, Tracy",sharp_tracy_codenamechandler_deadly
+proof,"action, mystery, suspense, thriller",crime fiction,Double Shot,"Sharp, Tracy",sharp_tracy_doubleshot
+proof,science fiction & fantasy,science fiction,Intruders The Awakening,"Sharp, Tracy",sharp_tracy_intruderstheawakeningbook2
+proof,romance,paranormal,Magical Dare,"Sharp, Tracy",sharp_tracy_magicaldare
+proof,romance,military,Shield Me,"Sharp, Tracy",sharp_tracy_shieldme_hotseals
+copyedit,science fiction & fantasy,paranormal,Spooked,"Sharp, Tracy",sharp_tracy_spooked
+copyedit,romance,contemporary,Wish to Dare,"Sharp, Tracy",sharp_tracy_wishtodare
+copyedit,romance,military,Trouble in a Tight Dress,"Sjoberg, Lori",sjoberg_lori_sixpointsbk1_troubleinatightdress
+copyedit,romance,military,Danger in a Dive Bar,"Sjoberg, Lori",sjoberg_lori_sixpointsbk2_dangerinadivebar
+copyedit,romance,military,Star in a Firestorm,"Sjoberg, Lori",sjoberg_lori_sixpointsbk3_starinastorm
+copyedit,romance,military,Driven,"Sjoberg, Lori",sjoberg_lori_southernalphasbk1_driven
+copyedit,romance,military,Fractured,"Sjoberg, Lori",sjoberg_lori_southernalphasbk2_fractured
+copyedit,romance,military,Devoted,"Sjoberg, Lori",sjoberg_lori_southernalphasbk3_devoted
+copyedit,romance,military,Denied,"Sjoberg, Lori",sjoberg_lori_southernalphasbk4_denied
+proof,romance,contemporary,Confessions of A City Girl: LA,"Sobanet, Juliette",sobanet_juliette_confessionslosangeles
+proof,romance,contemporary,City Girl: San Diego,"Sobanet, Juliette",sobanet_juliette_confessionssandiego
+copyedit,"action, mystery, suspense, thriller",mystery,Auburn Ride,"Stever, Dave",steever_david_johnnydelarosathrillerbk1_auburnride
+copyedit,"action, mystery, suspense, thriller",mystery,Toxic Blonde,"Stever, Dave",steever_david_johnnydelarosathrillerbk2_toxicblonde
+proof,fiction,anthologies,Glimpses,"Taylor, J.E.",taylor_je_glimpses
+proof,fiction,general fiction,House Rules,"Taylor, J.E.",taylor_je_houserules
+proof,science fiction & fantasy,dystopian,Messiah,"Taylor, J.E.",taylor_je_messiah
+copyedit,romance,romantic suspense,Steam,"Taylor, J.E.",taylor_je_steam
+copyedit,science fiction & fantasy,paranormal,Ritual,"Taylor, Lola",taylor_lola_bk6_ritual
+copyedit,science fiction & fantasy,zombie,Zombie Whisperer,"Torres, Caterina",torres_caterina_zombiewhisperer
+copyedit,romance,contemporary,vnNesSsa,"Tracey, Lane",tracey_lane_vnnessa
+copyedit,science fiction & fantasy,paranormal,Kai,"Ullmer, Valerie",ullmer_valerie_darkassassinsbk1_kai
+copyedit,science fiction & fantasy,paranormal,Reaper,"Ullmer, Valerie",ullmer_valerie_darkassassinsbk2_reaper
+copyedit,science fiction & fantasy,paranormal,Seth - Assassin series,"Ullmer, Valerie",ullmer_valerie_darkassassinsbk3_seth
+copyedit,science fiction & fantasy,paranormal,Xander,"Ullmer, Valerie",ullmer_valerie_darkassassinsbk4_xander
+proof,science fiction & fantasy,paranormal,Jade,"Ullmer, Valerie",ullmer_valerie_darkassassinsbk5_jade
+copyedit,romance,contemporary,Her Perfect Match,"Ullmer, Valerie",ullmer_valerie_hisperfectmatch
+copyedit,romance,contemporary,The Mistaken Escort's Pleasure,"Ullmer, Valerie",ullmer_valerie_mistakenescortspleasure
+proof,romance,erotica,Unexpected,"Ullmer, Valerie",ullmer_valerie_unexpected
+copyedit,fiction,humor,Being Shirley,"Vernal, Michelle",vernal_michelle_beingshirley
+copyedit,fiction,humor,Second-hand Jane,"Vernal, Michelle",vernal_michelle_secondhandjane
+copyedit,romance,paranormal,"Life, Take Three","Vince, Suzanne",vince_suzanne_lifetakethree
+copyedit,romance,clean & wholesome,My Mother's Journals,"Vince, Suzanne",vince_suzanne_mymothersjournals
+copyedit,fiction,women's fiction,The Many Lives of June Crandall,"Vince, Suzanne",vince_suzanne_themanylivesofjunecrandall
+copyedit,romance,medical,The Other Side of the World,"Vince, Suzanne",vince_suzanne_theothersideoftheworld_bk1luke
+copyedit,romance,medical,The Other Side of the World - Talia,"Vince, Suzanne",vince_suzanne_theothersideoftheworld_bk2talia'sstory
+copyedit,romance,medical,The Christmas Gift,"Vince, Suzanne",vince_suzanne_theothersideoftheworld_thechristmasgift
+proof,science fiction & fantasy,fantasy,A Time to Mend Bk 1 Wilderness Edge,"Walton, Sean",walton_sean_atimetomendbk1_wildernessedge
+proof,science fiction & fantasy,fantasy,A Time to Mend Bk 2 Lost in the Eaves,"Walton, Sean",walton_sean_atimetomendbk2_lostintheeaves
+copyedit,science fiction & fantasy,fantasy,Generals Vie,"Walton, Sean",walton_sean_atimetomendbk3_generalsvie
+proof,science fiction & fantasy,fantasy,Elixir Quest,"Walton, Sean",walton_sean_dragonscursebk1_elixirquest
+proof,science fiction & fantasy,fantasy,Pariah,"Walton, Sean",walton_sean_dragonscursebk2_theemptycurse
+copyedit,science fiction & fantasy,fantasy,The Forbidden,"Walton, Sean",walton_sean_dragon'scursebk3_theforbidden
+copyedit,science fiction & fantasy,fantasy,Worlds #1: The Hatcher,"Walton, Sean",walton_sean_splitbetweenworldsbk1_thedragonjudge
+copyedit,science fiction & fantasy,fantasy,Worlds #2: Dragon's Coup,"Walton, Sean",walton_sean_splitbetweenworldsbk2_dragon'scoup
+copyedit,science fiction & fantasy,fantasy,Worlds #3: Dragon Punisher,"Walton, Sean",walton_sean_splitbetweenworldsbk3_thedragonpunisher
+copyedit,science fiction & fantasy,fantasy,Worlds #4: Dragon Stature,"Walton, Sean",walton_sean_splitbetweenworldsbk4_dragonstature
+copyedit,romance,romantic comedy,Next To Impossible,"White, Scott",white_scott_nexttoimpossible
+copyedit,romance,contemporary,The Proposal,"Zante, Lily",zante_lily_theproposal
+copyedit,romance,contemporary,Heart Sync,"Zante, Lily",zante_lily_heartsync
+copyedit,romance,contemporary,Lost in Solo,"Zante, Lily",zante_lily_lostinsolo
