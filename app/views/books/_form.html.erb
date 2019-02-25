@@ -26,6 +26,11 @@
       <%= select_tag :genre, options_for_select(@genres, book.genre) %>
     </div>
     <div class="field">
+      <%= form.label :subgenre %>
+      <br />
+      <%= select_tag :subgenre, options_for_select(@subgenres, book.subgenre) %>
+    </div>
+    <div class="field">
       <%= form.label :work_done %>
       <br />
       <%= form.select :work_done, ["Proof", "Copyedit"], id: :book_work_done %>

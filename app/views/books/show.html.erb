@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 <p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+<p>
   <strong>Author:</strong>
   <%= Author.find(@book.author_id).full_name %>
 </p>
@@ -12,8 +16,8 @@
   <%= @book.genre %>
 </p>
 <p>
-  <strong>Title:</strong>
-  <%= @book.title %>
+  <strong>Subgenre:</strong>
+  <%= @book.subgenre %>
 </p>
 <% if @book.featured %>
   <p>
@@ -30,5 +34,7 @@
   <% end %>
 <% end %>
 <% if current_user && current_user["admin_rights"] == true %>
-  <%= link_to 'Edit', edit_book_path(@book) %>
+  <p>
+    <%= link_to 'Edit', edit_book_path(@book) %>
+  </p>
 <% end %>
