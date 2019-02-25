@@ -11,14 +11,14 @@
       </div>
     <% end %>
     <div class="field">
+      <%= form.label :title %>
+      <br />
+      <%= form.text_field :title, id: :book_title %>
+    </div>
+    <div class="field">
       <%= form.label :author_id %>
       <br />
       <%= select_tag :author_id, options_for_select(@authors, book.author_id)  %>
-    </div>
-    <div class="field">
-      <%= form.label :work_done %>
-      <br />
-      <%= form.select :work_done, ["Proof", "Copyedit"], id: :book_work_done %>
     </div>
     <div class="field">
       <%= form.label :genre %>
@@ -26,9 +26,9 @@
       <%= select_tag :genre, options_for_select(@genres, book.genre) %>
     </div>
     <div class="field">
-      <%= form.label :title %>
+      <%= form.label :work_done %>
       <br />
-      <%= form.text_field :title, id: :book_title %>
+      <%= form.select :work_done, ["Proof", "Copyedit"], id: :book_work_done %>
     </div>
     <div class="field">
       <%= form.label "Featured"%>
