@@ -17,17 +17,20 @@ class BooksController < ApplicationController
   def new
     @book = Book.new
     @authors = Author.all.map { |a| [a.full_name, a.id] }
+    @genres = ["something", "something else"]
   end
 
   # GET /books/1/edit
   def edit
     @authors = Author.all.map { |a| [a.full_name, a.id] }
+    @genres = ["something", "something else"]
   end
 
   # POST /books
   # POST /books.json
   def create
     @authors = Author.all.map { |a| [a.full_name, a.id] }
+    @genres = ["something", "something else"]
     @book = Book.new(book_params)
     @book.author_id = params[:author_id]
     respond_to do |format|

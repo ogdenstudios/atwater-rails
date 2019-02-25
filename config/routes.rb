@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :genres
   devise_for :users
   authenticate :user do 
     resources :authors, only: [:index, :new, :create, :edit, :update, :destroy], param: :slug
