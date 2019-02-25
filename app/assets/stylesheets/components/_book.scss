@@ -9,3 +9,10 @@
         width: 100%
     }
 }
+
+.book__form {
+    input, select, textarea {
+        margin: 1em;
+        margin-left: 0;
+    }
+}

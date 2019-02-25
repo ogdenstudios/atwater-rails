@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   authenticate :user do 
-    resources :authors, only: [:index, :create, :edit, :update, :destroy], param: :slug
+    resources :authors, only: [:index, :new, :create, :edit, :update, :destroy], param: :slug
     resources :books
   end 
   

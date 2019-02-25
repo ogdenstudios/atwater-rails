@@ -1,3 +1,4 @@
+<section class="book__form">
 <%= form_with(model: book, local: true) do |form| %>
   <% if book.errors.any? %>
     <div id="error_explanation">
@@ -14,14 +15,17 @@
   </div>
   <div class="field">
     <%= form.label :work_done %>
+    <br />
     <%= form.select :work_done, ["Proof", "Copyedit"], id: :book_work_done %>
   </div>
   <div class="field">
     <%= form.label :genre %>
+    <br />
     <%= form.text_field :genre, id: :book_genre %>
   </div>
   <div class="field">
     <%= form.label :title %>
+    <br />
     <%= form.text_field :title, id: :book_title %>
   </div>
 
@@ -38,3 +42,4 @@
 
 
 <% end %>
+</section>

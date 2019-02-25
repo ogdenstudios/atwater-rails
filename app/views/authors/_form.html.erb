@@ -1,3 +1,4 @@
+<section class="author__form">
 <%= form_with(model: author, local: true) do |form| %>
   <% if author.errors.any? %>
     <div id="error_explanation">
@@ -11,26 +12,34 @@
   <% end %>
   <div class="field">
     <%= form.label :first_name %>
+    <br />
     <%= form.text_field :first_name, id: :author_first_name %>
   </div>
   <div class="field">
     <%= form.label :last_name %>
+    <br />
     <%= form.text_field :last_name, id: :author_last_name %>
   </div>
   <div class="field">
     <%= form.label :full_name %>
+    <span>(i.e. "Aitken, Elena")</span>
+    <br />
     <%= form.text_field :full_name, id: :author_full_name %>
   </div>
   <div class="field">
     <%= form.label :website %>
+    <br />
     <%= form.text_field :website, id: :author_website %>
   </div>
   <div class="field">
     <%= form.label :testimonial %>
-    <%= form.text_field :testimonial, id: :author_testimonial %>
+    <br />
+    <%= form.text_area :testimonial, id: :author_testimonial %>
   </div>
   <div class="field">
     <%= form.label :slug %>
+    <span>(i.e. "elena-aitken", will be used in URL for each author)</span>
+    <br />
     <%= form.text_field :slug, id: :author_slug %>
   </div>
   <div class="field">
@@ -41,3 +50,4 @@
     <%= form.submit %>
   </div>
 <% end %>
+</section>
