@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190224062811) do
+ActiveRecord::Schema.define(version: 20190225005304) do
 
   create_table "authors", force: :cascade do |t|
     t.string "first_name"
@@ -35,6 +35,12 @@ ActiveRecord::Schema.define(version: 20190224062811) do
     t.boolean "featured"
     t.string "picture"
     t.index ["author_id"], name: "index_books_on_author_id"
+  end
+
+  create_table "genres", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "name"
   end
 
   create_table "seed_migration_data_migrations", force: :cascade do |t|
