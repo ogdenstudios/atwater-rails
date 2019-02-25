@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  resources :subgenres
   devise_for :users
   authenticate :user do 
     resources :authors, only: [:index, :new, :create, :edit, :update, :destroy], param: :slug
     resources :books
     resources :genres
+    resources :subgenres
   end 
   
   resources :authors, only: [:show], param: :slug
