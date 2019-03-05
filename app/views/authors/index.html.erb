@@ -20,6 +20,7 @@
         <td><%= author.slug %></td>
         <td><%= link_to 'Show', author_path(slug: author.slug) %></td>
         <td><%= link_to 'Edit', edit_author_path(slug: author.slug) %></td>
+        <td><%= link_to 'Destroy', author_path(slug: author.slug), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -27,4 +28,4 @@
 
 <br>
 
-<%# link_to 'New Author', new_author_path %>
+<%= link_to 'New Author', new_author_path %>
