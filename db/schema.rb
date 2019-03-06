@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190225012115) do
+ActiveRecord::Schema.define(version: 20190306231401) do
 
   create_table "authors", force: :cascade do |t|
     t.string "first_name"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20190225012115) do
     t.text "testimonial"
     t.string "website"
     t.string "slug"
+    t.boolean "visible"
   end
 
   create_table "books", force: :cascade do |t|
