@@ -40,6 +40,7 @@ class BooksController < ApplicationController
     @book.subgenre = params[:subgenre]
     respond_to do |format|
       if @book.save
+        restrict_featured_covers(@book)
         format.html { redirect_to @book, notice: 'Book was successfully created.' }
         format.json { render :show, status: :created, location: @book }
       else
@@ -57,22 +58,7 @@ class BooksController < ApplicationController
       @book.genre = params[:genre]
       @book.subgenre = params[:subgenre]
       if @book.update(book_params)
-        # HACK: make sure there's only ever one featured book per author
-        if @book.featured == true 
-          author = @book.author
-          if author.books.where(featured: true).count > 1 
-            featured_books = author.books.where(featured: true)
-            book0 = featured_books[0]
-            book1 = featured_books[1]
-            if (book0.updated_at > book1.updated_at)
-              book1.featured = false 
-              book1.save!
-            else 
-              book0.featured = false 
-              book0.save!
-            end
-          end
-        end
+        restrict_featured_covers(@book)
         format.html { redirect_to @book, notice: 'Book was successfully updated.' }
         format.json { render :show, status: :ok, location: @book }
       else
@@ -101,5 +87,17 @@ class BooksController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def book_params
       params.require(:book).permit(:work_done, :genre, :subgenre, :title, :old_filename, :featured, :picture, :author_id)
+    end
+    
+    # Make sure there's only ever one featured book per author
+    def restrict_featured_covers(book)
+      if book.author.books.where(featured: true).count > 1 
+        featured_books = book.author.books.where(featured: true)
+        if (featured_books[0].updated_at > featured_books[1].updated_at)
+          featured_books[1].update_column(:featured, false) 
+        else 
+          featured_books[0].update_column(:featured, false)
+        end
+      end
     end
 end
