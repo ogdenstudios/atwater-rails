@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
+gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
 # Use postgres for heroku
 gem 'pg'
 # Use Puma as the app server
@@ -65,7 +65,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use sqlite3 as the database for Active Record in development
-  gem 'sqlite3'
+  gem "sqlite3", "~> 1.3.6"
   # Use Guard for reloading 
   gem 'guard'
 end
