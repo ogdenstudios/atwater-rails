@@ -31,3 +31,5 @@ book card in author view wrong image priority
 3rd quarter 
 4th quarter
 change copyright date 
+
+## change
