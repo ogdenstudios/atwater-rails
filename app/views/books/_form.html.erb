@@ -23,7 +23,7 @@
     <div class="field">
       <%= form.label :genre %>
       <br />
-      <%= select_tag :genre, options_for_select(@genres, book.genre) %>
+      <%= form.collection_select :genre_id, Genre.all, :id, :name %>
     </div>
     <div class="field">
       <%= form.label :subgenre %>
