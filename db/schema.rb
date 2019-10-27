@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190306231401) do
+ActiveRecord::Schema.define(version: 2019_10_27_192932) do
 
   create_table "authors", force: :cascade do |t|
     t.string "first_name"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20190306231401) do
     t.boolean "featured"
     t.string "picture"
     t.string "subgenre"
+    t.integer "service"
     t.index ["author_id"], name: "index_books_on_author_id"
   end
 

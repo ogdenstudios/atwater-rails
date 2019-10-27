@@ -1,7 +1,5 @@
 <section class="portfolio">
-<% @authors.each do |author| %>
-    <% if author.books.count > 0 && author.visible %>
-        <%= render 'partials/author', author: author, showTestimonial: false %>
-    <% end %>
-<% end %>
+  <%= Book.distinct.pluck(:work_done) %><br>
+  <%= Book.distinct.pluck(:genre) %><br>
+  <%= Book.distinct.pluck(:subgenre) %>
 </section>
