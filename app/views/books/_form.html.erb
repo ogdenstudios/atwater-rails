@@ -31,9 +31,9 @@
       <%= select_tag :subgenre, options_for_select(@subgenres, book.subgenre) %>
     </div>
     <div class="field">
-      <%= form.label :work_done %>
+      <%= form.label :service %>
       <br />
-      <%= form.select :work_done, ["Proof", "Copyedit"], id: :book_work_done %>
+      <%= form.select :service, ['proof', 'copyedit'], id: :book_service %>
     </div>
     <div class="field">
       <%= form.label "Featured"%>
