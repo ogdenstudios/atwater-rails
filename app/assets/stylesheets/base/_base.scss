@@ -16,7 +16,8 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 
-a {
+a,
+.link__title {
   color: $link-color;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -74,7 +75,8 @@ ul {
   margin: 0;
   padding: 0;
 }
-li {
+li, 
+.link__title {
   line-height: 1.55;
   list-style: none;
   margin: 0;

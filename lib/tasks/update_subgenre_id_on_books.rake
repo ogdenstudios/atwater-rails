@@ -6,7 +6,7 @@ task :update_subgenre_id_on_books => :environment do
             subgenre_id = Subgenre.find_by(name: 'None')
             book.update_column(:subgenre_id, subgenre_id) 
         else
-            subgenre_id = Subgenre.find_by(name: book[:subgenre].titleize).id
+            subgenre_id = Subgenre.find_by(name: book[:subgenre]).id
             book.update_column(:subgenre_id, subgenre_id)
         end
     end

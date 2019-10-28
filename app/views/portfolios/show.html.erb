@@ -1,0 +1,17 @@
+<h1><%= @filter %></h1>
+<div class="book__container">
+  <% @books.each do |book| %>
+    <div class="book" data-service="<%= book.service %>">
+      <% if current_user && current_user["admin_rights"] == true %>
+        <a href="/books/<%= book.id %>">
+          <li><%=book.title%></li>
+        </a>
+      <% else %>
+        <li><%=book.title%></li>
+      <% end %>
+        <div class="author__image-wrapper">
+          <%= image_tag book.picture.url, class: "author__image" %>
+        </div>
+    </div>
+  <% end %>
+</div>
