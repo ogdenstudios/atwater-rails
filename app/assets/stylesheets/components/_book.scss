@@ -10,6 +10,18 @@
     }
 }
 
+.book__container.copyedit {
+    .book[data-service="proof"] {
+        display: none;
+    }
+}
+
+.book__container.proof {
+    .book[data-service="copyedit"] {
+        display: none;
+    }
+}
+
 .book__form {
     input, select, textarea {
         margin: 1em;

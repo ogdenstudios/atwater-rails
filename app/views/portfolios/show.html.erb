@@ -1,4 +1,11 @@
 <h1><%= @filter %></h1>
+<span>Filter by service: </span>
+<input type="radio" id="all" name="service" value="all" checked>
+<label for="all">All</label>
+<input type="radio" id="copyedit" name="service" value="copyedit">
+<label for="copyedit">Copyediting</label>
+<input type="radio" id="proof" name="service" value="proof">
+<label for="proof">Proofing</label>
 <div class="book__container">
   <% @books.each do |book| %>
     <div class="book" data-service="<%= book.service %>">

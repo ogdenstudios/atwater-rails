@@ -4,7 +4,6 @@ $( document ).on('turbolinks:load', function() {
     if (current === "/") {
         current = "/home";
     }
-    console.log((current === "/"));
     $('#sidebar a').each(function(){
         var $this = $(this);
         // if the current path is like this link, make it active
