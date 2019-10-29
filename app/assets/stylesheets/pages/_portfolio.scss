@@ -1,7 +1,9 @@
 .portfolio {
     background: transparent;
-    // display: flex;
-    // flex-wrap: wrap;
+    &__all {
+        display: flex;
+        flex-wrap: wrap;
+    }
     &__links {
         display: flex;
         flex-wrap: wrap;
@@ -19,4 +21,8 @@
             }
         }
     }
+}
+
+.filters {
+    margin-bottom: 1em;
 }
