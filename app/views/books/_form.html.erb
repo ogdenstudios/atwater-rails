@@ -23,17 +23,17 @@
     <div class="field">
       <%= form.label :genre %>
       <br />
-      <%= select_tag :genre, options_for_select(@genres, book.genre) %>
+      <%= form.collection_select :genre_id, Genre.all, :id, :name %>
     </div>
     <div class="field">
       <%= form.label :subgenre %>
       <br />
-      <%= select_tag :subgenre, options_for_select(@subgenres, book.subgenre) %>
+      <%= form.collection_select :subgenre_id, Subgenre.all, :id, :name %>
     </div>
     <div class="field">
-      <%= form.label :work_done %>
+      <%= form.label :service %>
       <br />
-      <%= form.select :work_done, ["Proof", "Copyedit"], id: :book_work_done %>
+      <%= form.select :service, ['proof', 'copyedit'], id: :book_service %>
     </div>
     <div class="field">
       <%= form.label "Featured"%>

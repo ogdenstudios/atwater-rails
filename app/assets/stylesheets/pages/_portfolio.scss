@@ -1,5 +1,28 @@
 .portfolio {
     background: transparent;
-    display: flex;
-    flex-wrap: wrap;
+    &__all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        .link {
+            box-sizing: border-box;
+            margin-bottom: 0.5em;
+            margin-right: 0.5em;
+            width: 40%;
+            @media (max-width: 768px) {
+                margin: 0;
+                width: 100%;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.filters {
+    margin-bottom: 1em;
 }

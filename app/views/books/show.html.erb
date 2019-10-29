@@ -9,15 +9,15 @@
 </p>
 <p>
   <strong>Work done:</strong>
-  <%= @book.work_done %>
+  <%= @book.service %>
 </p>
 <p>
   <strong>Genre:</strong>
-  <%= @book.genre %>
+  <%= @book.genre.name %>
 </p>
 <p>
   <strong>Subgenre:</strong>
-  <%= @book.subgenre %>
+  <%= @book.subgenre.name %>
 </p>
 <% if @book.featured %>
   <p>

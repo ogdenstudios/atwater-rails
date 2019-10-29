@@ -86,7 +86,7 @@ class BooksController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def book_params
-      params.require(:book).permit(:work_done, :genre, :subgenre, :title, :old_filename, :featured, :picture, :author_id)
+      params.require(:book).permit(:service, :genre_id, :subgenre_id, :title, :old_filename, :featured, :picture, :author_id)
     end
     
     # Make sure there's only ever one featured book per author

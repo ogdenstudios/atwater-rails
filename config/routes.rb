@@ -19,4 +19,6 @@ Rails.application.routes.draw do
   get '/rates', to: "pages#rates"
   get '/contact', to: "pages#contact"
   get '/portfolio', to: "pages#portfolio"
+  get '/portfolio/all', to: "portfolios#all" 
+  get '/portfolio/:slug', to: "portfolios#show"
 end

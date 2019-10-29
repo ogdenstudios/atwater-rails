@@ -1,0 +1,30 @@
+<div class="author">
+  <h4>
+    <a href="/authors/<%= book.author.slug %>">
+      <%= book.title %>
+    </a>
+  </h4>
+  <% if book.picture? %>
+    <div class="author__image-wrapper">
+      <%= image_tag book.picture.url, class: "author__image" %>
+      <a href="/authors/<%= book.author.slug %>">
+        <div class="author__see-more">
+          <p>Click here to see all titles for this author.</p>
+        </div>
+      </a>
+    </div>
+  <% else %>
+    <div class="author__image-wrapper">
+      <% if Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
+        <%= image_tag("https://via.placeholder.com/350x600", class: "author__image")%>
+      <% else %>
+        <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
+      <% end %>
+      <a href="/authors/<%= book.author.slug %>">
+        <div class="author__see-more">
+          <p>Click here to see all titles for this author.</p>
+        </div>
+      </a>
+    </div>
+  <% end %>
+</div>
