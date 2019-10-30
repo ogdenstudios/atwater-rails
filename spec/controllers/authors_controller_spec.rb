@@ -25,8 +25,11 @@ RSpec.describe AuthorsController do
             get :show, params: {slug: author.slug}
             expect(response).to render_template("show")
         end
-        it "responds to JSON requests"
-
+        it "responds to JSON requests" do
+            author = create(:author) 
+            get :show, params: {slug: author.slug}, format: :json 
+            expect(response.status).to eq(200)
+         end
     end
     describe "GET new" do
         it "assigns authors"
