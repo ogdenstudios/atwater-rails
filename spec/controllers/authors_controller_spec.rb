@@ -14,8 +14,16 @@ RSpec.describe AuthorsController do
       end
     end
     describe "GET show" do
-        it "assigns authors"
-        it "renders the show template"
+        it "assigns authors" do 
+            author = create(:author) 
+            get :show, params: {slug: author.slug}
+            expect(assigns[:author]).to eq(author)
+        end
+        it "renders the show template" do 
+            author = create(:author) 
+            get :show, params: {slug: author.slug}
+            expect(response).to render_template("show")
+        end
     end
     describe "GET new" do
         it "assigns authors"
