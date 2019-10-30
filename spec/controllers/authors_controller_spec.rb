@@ -12,6 +12,7 @@ RSpec.describe AuthorsController do
         get :index
         expect(response).to render_template("index")
       end
+      it "responds to JSON requests"
     end
     describe "GET show" do
         it "assigns authors" do 
@@ -24,31 +25,38 @@ RSpec.describe AuthorsController do
             get :show, params: {slug: author.slug}
             expect(response).to render_template("show")
         end
+        it "responds to JSON requests"
+
     end
     describe "GET new" do
         it "assigns authors"
         it "authenticates user"
         it "renders the new template" 
+        it "responds to JSON requests"
     end
     describe "GET edit" do 
         it "assigns authors"
         it "authenticates user"
         it "renders the edit template" 
+        it "responds to JSON requests"
     end
     describe "POST create" do 
         it "assigns authors"
         it "authenticates user"
         it "renders the new template" 
+        it "responds to JSON requests"
     end
     describe "PUT update" do 
         it "assigns authors"
         it "authenticates user"
         it "renders the new template" 
+        it "responds to JSON requests"
     end
     describe "DELETE destroy" do 
         it "assigns authors"
         it "authenticates user"
         it "renders the new template" 
+        it "responds to JSON requests"
     end
   end
   
