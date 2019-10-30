@@ -12,7 +12,10 @@ RSpec.describe AuthorsController do
         get :index
         expect(response).to render_template("index")
       end
-      it "responds to JSON requests"
+      it "responds to JSON requests" do 
+        get :index, format: :json 
+        expect(response.status).to eq(200)
+      end
     end
     describe "GET show" do
         it "assigns authors" do 
