@@ -5,7 +5,7 @@ class PortfoliosController < ApplicationController
     def all 
         @title = "The Atwater Group | Portfolio"
         @slug = "portfolio"
-        @authors = Author.where(featured_author: true)
+        @authors = Author.all
     end 
     def show 
         @title = "The Atwater Group | Portfolio"
