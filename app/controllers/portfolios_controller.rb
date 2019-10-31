@@ -10,6 +10,7 @@ class PortfoliosController < ApplicationController
     def show 
         @title = "The Atwater Group | Portfolio"
         @filter = params[:slug]
-        @authors = Book.where(genre_id: Genre.find_by(slug: params[:slug]).id).sort_by { |book| book.author.last_name }.group_by { |book| book.author.full_name }
+        genre_id = Genre.find_by(slug: params[:slug]).id
+        @authors = Book.where(genre_id: genre_id).group_by { |book| book.author.full_name }.sort
     end
 end
