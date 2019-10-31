@@ -1,14 +1,19 @@
 <h1><%= @filter %></h1>
 <div class="filters">
-<span>Filter by service: </span>
-<input type="radio" id="all" name="service" value="all" checked>
-<label for="all">All</label>
-<input type="radio" id="copyedit" name="service" value="copyedit">
-<label for="copyedit">Copyediting</label>
-<input type="radio" id="proof" name="service" value="proof">
-<label for="proof">Proofing</label>
+  <span>Filter by service: </span>
+  <div>
+    <input type="radio" id="all" name="service" value="all" checked>
+    <label for="all">All</label>
+  </div>
+  <div>
+    <input type="radio" id="copyedit" name="service" value="copyedit">
+    <label for="copyedit">Copyediting</label>
+  </div>
+  <div>
+    <input type="radio" id="proof" name="service" value="proof">
+    <label for="proof">Proofing</label>
+  </div>
 </div>
-
 <div class="book__container">
   <% @books.each do |book| %>
     <div class="book" data-service="<%= book.service %>">
@@ -19,16 +24,15 @@
     </div>
   <% end %>
 </div>
-
 <script>
-var bookContainer = document.getElementsByClassName('book__container')[0];
-var serviceFilters = document.getElementsByName('service');
-
-if (bookContainer && serviceFilters) {
-    for (var i=0; i<serviceFilters.length; i++) {
-        serviceFilters[i].addEventListener('change', function(event) {
-            bookContainer.classList = 'book__container ' + event.target.id;
-        });
-    }
-}
+  var bookContainer = document.getElementsByClassName('book__container')[0];
+  var serviceFilters = document.getElementsByName('service');
+  
+  if (bookContainer && serviceFilters) {
+      for (var i=0; i<serviceFilters.length; i++) {
+          serviceFilters[i].addEventListener('change', function(event) {
+              bookContainer.classList = 'book__container ' + event.target.id;
+          });
+      }
+  }
 </script>
