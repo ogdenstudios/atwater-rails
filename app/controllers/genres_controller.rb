@@ -1,5 +1,6 @@
 class GenresController < ApplicationController
   before_action :set_genre, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:create, :edit, :new, :update, :destroy]
 
   # GET /genres
   # GET /genres.json
@@ -69,6 +70,6 @@ class GenresController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def genre_params
-      params.fetch(:genre, {})
+      params.fetch(:genre, {}).permit(:name, :slug)
     end
 end

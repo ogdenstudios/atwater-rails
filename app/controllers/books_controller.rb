@@ -1,6 +1,6 @@
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, only: [:edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:create, :edit, :new, :update, :destroy]
 
   # GET /books
   # GET /books.json
@@ -31,13 +31,8 @@ class BooksController < ApplicationController
   # POST /books
   # POST /books.json
   def create
-    @authors = Author.all.map { |a| [a.full_name, a.id] }
-    @genres = Genre.all.map { |g| g.name }
-    @subgenres = Subgenre.all.map { |s| s.name }
     @book = Book.new(book_params)
-    @book.author_id = params[:author_id]
-    @book.genre = params[:genre]
-    @book.subgenre = params[:subgenre]
+    # byebug
     respond_to do |format|
       if @book.save
         restrict_featured_covers(@book)
@@ -54,9 +49,6 @@ class BooksController < ApplicationController
   # PATCH/PUT /books/1.json
   def update
     respond_to do |format|
-      @book.author_id = params[:author_id]
-      @book.genre = params[:genre]
-      @book.subgenre = params[:subgenre]
       if @book.update(book_params)
         restrict_featured_covers(@book)
         format.html { redirect_to @book, notice: 'Book was successfully updated.' }
