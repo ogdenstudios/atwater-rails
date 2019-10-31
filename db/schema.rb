@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_28_003200) do
+ActiveRecord::Schema.define(version: 2019_10_31_023355) do
 
   create_table "authors", force: :cascade do |t|
     t.string "first_name"
@@ -26,8 +26,6 @@ ActiveRecord::Schema.define(version: 2019_10_28_003200) do
   end
 
   create_table "books", force: :cascade do |t|
-    t.string "work_done"
-    t.string "genre"
     t.string "title"
     t.string "old_filename"
     t.datetime "created_at", null: false
@@ -35,7 +33,6 @@ ActiveRecord::Schema.define(version: 2019_10_28_003200) do
     t.integer "author_id"
     t.boolean "featured"
     t.string "picture"
-    t.string "subgenre"
     t.integer "service"
     t.integer "genre_id"
     t.integer "subgenre_id"
