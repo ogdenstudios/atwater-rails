@@ -18,7 +18,7 @@
     <div class="field">
       <%= form.label :author_id %>
       <br />
-      <%= select_tag :author_id, options_for_select(@authors, book.author_id)  %>
+      <%= form.collection_select :author_id, Author.all, :id, :full_name  %>
     </div>
     <div class="field">
       <%= form.label :genre %>

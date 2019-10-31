@@ -16,23 +16,16 @@ class BooksController < ApplicationController
   # GET /books/new
   def new
     @book = Book.new
-    @authors = Author.all.map { |a| [a.full_name, a.id] }
-    @genres = Genre.all.map { |g| g.name }
-    @subgenres = Subgenre.all.map { |s| s.name }
   end
 
   # GET /books/1/edit
   def edit
-    @authors = Author.all.map { |a| [a.full_name, a.id] }
-    @genres = Genre.all.map { |g| g.name }
-    @subgenres = Subgenre.all.map { |s| s.name }
   end
 
   # POST /books
   # POST /books.json
   def create
     @book = Book.new(book_params)
-    # byebug
     respond_to do |format|
       if @book.save
         restrict_featured_covers(@book)
