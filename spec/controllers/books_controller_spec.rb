@@ -134,11 +134,11 @@ RSpec.describe BooksController do
         end
         it "correctly deletes an book" do
             book = create(:book)
-            initial_book_count = book.count
+            initial_book_count = Book.count
             user = create(:user)
             sign_in user
             delete :destroy, params: {id: book.id}
-            expect(book.count).to eq(initial_book_count - 1)
+            expect(Book.count).to eq(initial_book_count - 1)
         end 
         it "responds with a 204 on a successful JSON request" do 
             book = create(:book) 

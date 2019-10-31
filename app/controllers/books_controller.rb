@@ -32,9 +32,6 @@ class BooksController < ApplicationController
   # POST /books.json
   def create
     @book = Book.new(book_params)
-    @book.author_id = params[:author_id]
-    @book.genre_id = params[:genre_id]
-    @book.subgenre_id = params[:subgenre_id]
     respond_to do |format|
       if @book.save
         restrict_featured_covers(@book)
@@ -51,9 +48,6 @@ class BooksController < ApplicationController
   # PATCH/PUT /books/1.json
   def update
     respond_to do |format|
-      @book.author_id = params[:author_id]
-      @book.genre = params[:genre]
-      @book.subgenre = params[:subgenre]
       if @book.update(book_params)
         restrict_featured_covers(@book)
         format.html { redirect_to @book, notice: 'Book was successfully updated.' }
