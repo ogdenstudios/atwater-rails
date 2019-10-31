@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
   authenticate :user do 
-    resources :genres
     resources :subgenres
   end 
   
@@ -21,5 +20,6 @@ Rails.application.routes.draw do
 
   resources :authors, param: :slug
   resources :books
+  resources :genres
 
 end
