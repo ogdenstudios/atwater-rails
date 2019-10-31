@@ -1,5 +1,6 @@
 class SubgenresController < ApplicationController
   before_action :set_subgenre, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:create, :edit, :new, :update, :destroy]
 
   # GET /subgenres
   # GET /subgenres.json
@@ -69,6 +70,6 @@ class SubgenresController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def subgenre_params
-      params.fetch(:subgenre, {})
+      params.fetch(:subgenre, {}).permit(:name, :slug)
     end
 end
