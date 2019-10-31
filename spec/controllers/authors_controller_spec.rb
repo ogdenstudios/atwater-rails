@@ -65,8 +65,13 @@ RSpec.describe AuthorsController do
             get :edit, params: {slug: author.slug}
             expect(assigns[:author]).to eq(author)
         end
-        it "renders the edit template" 
-        it "responds to JSON requests"
+        it "renders the edit template" do 
+            author = create(:author)
+            user = create(:user)
+            sign_in user
+            get :edit, params: {slug: author.slug}
+            expect(response).to render_template("edit")
+        end 
     end
     describe "POST create" do 
         it "assigns authors"
