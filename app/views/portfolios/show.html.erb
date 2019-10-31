@@ -14,16 +14,19 @@
     <label for="proof">Proofing</label>
   </div>
 </div>
-<div class="book__container">
-  <% @books.each do |book| %>
-    <div class="book" data-service="<%= book.service %>">
-      <li><%=book.title%></li>
-      <div class="author__image-wrapper">
-        <%= image_tag book.picture.url, class: "author__image" %>
-      </div>
-    </div>
-  <% end %>
-</div>
+<% @authors.each do |author| %>
+  <h2><%= author[0].split(',')[1] + ' ' + author[0].split(',')[0] %></h2>
+  <div class="book__container">
+    <% author[1].each do |book| %>
+      <article class="book" data-service="<%= book.service %>">
+        <li><%=book.title%></li>
+        <div class="author__image-wrapper">
+          <%= image_tag book.picture.url, class: "author__image" %>
+        </div>
+      </article>
+    <% end %>
+  </div>
+<% end %>
 <script>
   var bookContainer = document.getElementsByClassName('book__container')[0];
   var serviceFilters = document.getElementsByName('service');
