@@ -81,6 +81,8 @@ RSpec.describe BooksController do
         end
         it "assigns book" do 
             book = build(:book)
+            user = create(:user) 
+            sign_in user
             post :create, params: {book: {genre_id: book.genre_id, title: book.title, old_filename: book.old_filename, author_id: book.author_id, featured: book.featured, picture: book.picture, service: book.service, subgenre_id: book.subgenre_id}}
             expect(assigns[:book]).to_not eq(nil)
         end
@@ -115,14 +117,14 @@ RSpec.describe BooksController do
             book = create(:book)
             user = create(:user) 
             sign_in user
-            post :update, params: {id: book.id, book: {first_name: 'newname'}}
+            post :update, params: {id: book.id, book: {title: 'newname'}}
             expect(response.status).to eq(302)
         end 
         it "responds with a 200 on successful JSON request" do 
             book = create(:book)
             user = create(:user) 
             sign_in user
-            post :update, params: {id: book.id, book: {first_name: 'newname'}}, format: :json
+            post :update, params: {id: book.id, book: {title: 'newname'}}, format: :json
             expect(response.status).to eq(200)
         end
     end
