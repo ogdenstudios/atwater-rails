@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  caches_action :index, :about, :services, :process_page, :rates, :portfolio, :contact, expires_in: 72.hours
+  caches_action :index, :about, :services, :process_page, :rates, :contact, expires_in: 72.hours
 
   def index
     @title = "The Atwater Group"
@@ -26,11 +26,6 @@ class PagesController < ApplicationController
   def rates
     @title = "The Atwater Group | Rates"
     @slug = "rates"
-  end
-
-  def portfolio 
-    @title = "The Atwater Group | Portfolio"
-    @slug = "portfolio"
   end
 
   def contact
