@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   caches_action :index, :about, :services, :process_page, :rates, :contact, expires_in: 72.hours
 
   def index
-    @title = "The Atwater Group"
+    @title = "The Atwater Group | Home"
     @authors = Author.where(featured_author: true)
     @slug = "home"
   end
