@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
   authenticate :user do 
-    resources :books
     resources :genres
     resources :subgenres
   end 
@@ -21,5 +20,6 @@ Rails.application.routes.draw do
   get '/portfolio/:slug', to: "portfolios#show"
 
   resources :authors, param: :slug
+  resources :books
 
 end
