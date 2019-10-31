@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  caches_action :index, :about, :services, :process_page, :rates, :portfolio, :contact 
+  caches_action :index, :about, :services, :process_page, :rates, :portfolio, :contact, expires_in: 72.hours
 
   def index
     @title = "The Atwater Group"

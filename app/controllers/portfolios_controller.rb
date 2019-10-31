@@ -1,5 +1,5 @@
 class PortfoliosController < ApplicationController
-    caches_action :all, :show
+    caches_action :all, :show, expires_in: 72.hours
 
     def all 
         @title = "The Atwater Group | Portfolio"
