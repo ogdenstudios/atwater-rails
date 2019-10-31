@@ -54,7 +54,8 @@ RSpec.describe AuthorsController do
     end
     describe "GET edit" do 
         it "redirects an unauthenticated user" do 
-            get :edit 
+            author = create(:author)
+            get :edit, params: {slug: author.slug}
             expect(response.status).to eq(302)
         end
         it "assigns authors" do 
