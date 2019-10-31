@@ -4,3 +4,7 @@
 heroku pg:backups:download
 pg_restore --verbose --clean --no-acl --no-owner -h localhost -d atwater_development latest.dump
 ```
+
+## Visual regression testing 
+
+[Using Wraith](http://bbc-news.github.io/wraith/)
