@@ -8,7 +8,11 @@ RSpec.describe PortfoliosController do
         end
     end
     describe "GET show" do
-        it "works"
+        it "works" do 
+            genre = create(:genre) 
+            get :show, params: {slug: genre.name}
+            expect(response.status).to eq(200)
+        end
     end
   end
   

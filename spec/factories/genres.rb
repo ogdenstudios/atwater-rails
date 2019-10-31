@@ -3,6 +3,7 @@
 FactoryBot.define do
     factory :genre do
         name { "string" }
+        slug { "string" }
     end
   end
   
