@@ -8,7 +8,7 @@
     <p><%= author.testimonial %></p>
   <% end %>
   <div class="author__image-wrapper">
-    <%= image_tag author.featured_book.picture.url, class: "author__image" %>
+    <%= image_tag author.featured_book.picture.url, class: "author__image", alt: "The cover of this author's featured book, also a link to their author page" %>
     <a href="/authors/<%= author.slug %>">
       <div class="author__see-more">
         <p>Click here to see all titles for this author.</p>
