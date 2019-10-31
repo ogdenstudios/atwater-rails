@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
 
+  caches_action :index, :about, :services, :process_page, :rates, :portfolio, :contact 
+
   def index
     @title = "The Atwater Group"
     @authors = Author.where(featured_author: true)

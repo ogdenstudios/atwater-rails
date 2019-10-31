@@ -1,4 +1,6 @@
 class PortfoliosController < ApplicationController
+    caches_action :all, :show
+
     def all 
         @title = "The Atwater Group | Portfolio"
         @slug = "portfolio"
