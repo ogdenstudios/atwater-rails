@@ -24,5 +24,12 @@
 }
 
 .filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 1em;
+    span {
+        margin-bottom: 0.5em;
+        min-width: 100%;
+    }
 }

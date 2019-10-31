@@ -31,12 +31,6 @@ RSpec.describe PagesController do
             expect(response.status).to eq(200)
         end
     end
-    describe "GET portfolio" do
-        it "works" do 
-            get :portfolio 
-            expect(response.status).to eq(200)
-        end
-    end
     describe "GET contact" do
         it "works" do 
             get :contact 

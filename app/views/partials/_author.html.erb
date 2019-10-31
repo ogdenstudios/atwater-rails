@@ -1,37 +1,18 @@
-<div class="author">
-  <h4>
+<article class="author">
+  <h2>
     <a href="/authors/<%= author.slug %>">
       <%= author.first_name %> <%= author.last_name%>
     </a>
-  </h4>
-  <% if showTestimonial == true %>
+  </h2>
+  <% if showTestimonial %>
     <p><%= author.testimonial %></p>
   <% end %>
-  <% author.books.each do |book| %>
-    <% if book.featured %>
-      <% if book.picture? %>
-        <div class="author__image-wrapper">
-          <%= image_tag book.picture.url, class: "author__image" %>
-          <a href="/authors/<%= author.slug %>">
-            <div class="author__see-more">
-              <p>Click here to see all titles for this author.</p>
-            </div>
-          </a>
-        </div>
-      <% else %>
-        <div class="author__image-wrapper">
-          <% if Rails.application.assets.find_asset("old_images/#{book.old_filename}.jpg").nil? %>
-            <%= image_tag("https://via.placeholder.com/350x600", class: "author__image")%>
-          <% else %>
-            <%= image_tag("old_images/#{book.old_filename}.jpg", class: "author__image") %>
-          <% end %>
-          <a href="/authors/<%= author.slug %>">
-            <div class="author__see-more">
-              <p>Click here to see all titles for this author.</p>
-            </div>
-          </a>
-        </div>
-      <% end %>
-    <% end %>
-  <% end %>
-</div>
+  <div class="author__image-wrapper">
+    <%= image_tag author.featured_book.picture.url, class: "author__image", alt: "The cover of this author's featured book, also a link to their author page" %>
+    <a href="/authors/<%= author.slug %>">
+      <div class="author__see-more">
+        <p>Click here to see all titles for this author.</p>
+      </div>
+    </a>
+  </div>
+</article>
