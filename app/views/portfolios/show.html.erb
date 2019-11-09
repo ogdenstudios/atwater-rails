@@ -15,27 +15,37 @@
   </div>
 </div>
 <% @authors.each do |author| %>
-  <h2><%= author[0].split(',')[1] + ' ' + author[0].split(',')[0] %></h2>
-  <div class="book__container">
-    <% author[1].each do |book| %>
-      <article class="book" data-service="<%= book.service %>">
-        <li><%=book.title%></li>
-        <div class="author__image-wrapper">
-          <%= image_tag book.picture.url, class: "author__image" %>
+  <article>
+    <h2><%= author[0].split(',')[1] + ' ' + author[0].split(',')[0] %></h2>
+    <div class="book__container">
+      <% author[1].each do |book| %>
+        <div class="book" data-service="<%= book.service %>">
+          <li><%=book.title%></li>
+          <div class="author__image-wrapper">
+            <%= image_tag book.picture.url, class: "author__image" %>
+          </div>
         </div>
-      </article>
-    <% end %>
-  </div>
+      <% end %>
+    </div>
+  </article>
 <% end %>
 <script>
   var bookContainer = document.getElementsByClassName('book__container')[0];
   var serviceFilters = document.getElementsByName('service');
+  var authorRows = document.getElementsByTagName('article');
   
   if (bookContainer && serviceFilters) {
       for (var i=0; i<serviceFilters.length; i++) {
           serviceFilters[i].addEventListener('change', function(event) {
               bookContainer.classList = 'book__container ' + event.target.id;
           });
+      }
+      for (var i=0; i<authorRows.length; i++){
+        if (!authorRows[i].querySelector('.book__container')) {
+          authorRows[i].style.display = 'none';
+        } else {
+          authorRows[i].style.display = 'block';
+        }
       }
   }
 </script>
