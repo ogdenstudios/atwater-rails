@@ -17,6 +17,5 @@ We can't really seed things anymore because of schema changes. Instead, run:
 heroku pg:backups:download
 rails db:drop
 rails db:create
-rails db:migrate
 pg_restore latest.dump -d atwater_development
 ```
