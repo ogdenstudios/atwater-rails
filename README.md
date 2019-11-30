@@ -1,3 +1,13 @@
+## Install Figaro
+
+After cloning, you have to set up the environment variables with [Figaro](https://github.com/laserlemon/figaro). 
+
+```
+bundle exec figaro install
+```
+
+Then get the secret values from wherever they're securely stored. 
+
 ## Sync up production db 
 
 ```
