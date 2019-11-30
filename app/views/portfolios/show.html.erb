@@ -33,19 +33,22 @@
   var bookContainer = document.getElementsByClassName('book__container')[0];
   var serviceFilters = document.getElementsByName('service');
   var authorRows = document.getElementsByTagName('article');
-  
+  var filter = 'all'; 
+
   if (bookContainer && serviceFilters) {
       for (var i=0; i<serviceFilters.length; i++) {
           serviceFilters[i].addEventListener('change', function(event) {
               bookContainer.classList = 'book__container ' + event.target.id;
+              filter = event.target.id;
+              console.log(filter);
+              for (var i=0; i<authorRows.length; i++){
+                if (filter !== 'all' && !authorRows[i].querySelector('[data-service="' + filter + '"]')) {
+                  authorRows[i].style.display = 'none';
+                } else {
+                  authorRows[i].style.display = 'block';
+                }
+              }
           });
-      }
-      for (var i=0; i<authorRows.length; i++){
-        if (!authorRows[i].querySelector('.book__container')) {
-          authorRows[i].style.display = 'none';
-        } else {
-          authorRows[i].style.display = 'block';
-        }
       }
   }
 </script>
