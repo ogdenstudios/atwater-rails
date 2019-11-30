@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
   def index
     @title = "The Atwater Group | Home"
-    @authors = Author.where(featured_author: true)
+    @authors = Author.where(featured_author: true).sort_by { |author| author.last_name }
     @slug = "home"
   end
 

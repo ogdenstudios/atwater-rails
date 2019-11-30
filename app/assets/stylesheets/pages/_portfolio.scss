@@ -26,8 +26,12 @@
 .filters {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 1em;
+    max-width: 500px;
+    div {
+        margin-right: 1em;
+    }
     span {
         margin-bottom: 0.5em;
         min-width: 100%;
