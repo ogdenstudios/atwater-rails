@@ -40,7 +40,6 @@
           serviceFilters[i].addEventListener('change', function(event) {
               bookContainer.classList = 'book__container ' + event.target.id;
               filter = event.target.id;
-              console.log(filter);
               for (var i=0; i<authorRows.length; i++){
                 if (filter !== 'all' && !authorRows[i].querySelector('[data-service="' + filter + '"]')) {
                   authorRows[i].style.display = 'none';
