@@ -32,6 +32,7 @@ gem 'seed_migration'
 gem "figaro"
 gem 'actionpack-action_caching'
 gem 'fog-aws'
+gem 'stripe' # For payment processing 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

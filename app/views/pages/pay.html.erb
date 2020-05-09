@@ -1,0 +1,54 @@
+<h1>Securely pay an invoice</h1>
+<div id="paymentForm">
+  <form>
+    <fieldset>
+      <div>
+        <label for="name">Name*</label>
+        <input
+          id="name"
+          type="text"
+          placeholder="Jane Doe"
+          required=""
+          autocomplete="name"
+        />
+      </div>
+      <div>
+        <label for="email">Email*</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="janedoe@gmail.com"
+          required=""
+          autocomplete="email"
+        />
+      </div>
+      <div>
+        <label for="invoice">Invoice*</label>
+        <input
+          id="invoice"
+          type="text"
+          placeholder="Invoice number"
+          required=""
+          autocomplete="name"
+        />
+      </div>
+      <div>
+        <label for="amount">Amount (USD)*</label>
+        <input
+          id="amount"
+          type="tel"
+          placeholder="100.00"
+          required=""
+          autocomplete="tel"
+          pattern="(?=.*?\d)^\$?(([1-9]\d{0,2}(\d{3})*)|\d+)?(\.\d{1,2})?$"
+        />
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <div id="card-element"></div>
+      </div>
+    </fieldset>
+    <button type="submit">Pay</button>
+  </form>
+</div>

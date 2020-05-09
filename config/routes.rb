@@ -19,5 +19,5 @@ Rails.application.routes.draw do
   resources :books
   resources :genres
   resources :subgenres
-
+  resources :payment_intents, only: [:create]
 end
