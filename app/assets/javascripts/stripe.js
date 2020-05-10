@@ -34,7 +34,7 @@ function handlePaymentSubmit(event) {
     amount: document.getElementById("amount").value * 100,
   };
   var token = document.getElementsByName("csrf-token")[0].content;
-  console.log(token);
+  displayPaymentStatus();
 
   fetch("/payment_intents", {
     method: "POST",
@@ -51,7 +51,29 @@ function handlePaymentSubmit(event) {
     })
     .catch((error) => {
       console.error("Error:", error);
+      updatePaymentStatus(error);
     });
+}
+
+function displayPaymentStatus() {
+  var paymentModal = document.getElementById("paymentModal");
+  paymentModal.style.display = "block";
+}
+
+function updatePaymentStatus(status) {
+  var message = document.getElementById("message");
+  var loader = document.getElementsByClassName("loader")[0];
+  var closeButton = document.getElementById("closeButton");
+  message.innerText = status;
+  loader.style.display = "none";
+  closeButton.style.display = "block";
+  closeButton.addEventListener("click", function () {
+    var paymentModal = document.getElementById("paymentModal");
+    paymentModal.style.display = "none";
+    message.innerText = "Payment processing";
+    loader.style.display = "block";
+    closeButton.style.display = "none";
+  });
 }
 
 function submitPaymentIntentToStripe(paymentIntent) {
@@ -70,10 +92,18 @@ function submitPaymentIntentToStripe(paymentIntent) {
       if (result.error) {
         // Do some error
         console.log(result.error.message);
+        updatePaymentStatus(result.error.message);
       } else {
         if (result.paymentIntent.status === "succeeded") {
           // Do some sort of successmessage
+          var message = "Payment successful! Check your email for a receipt.";
+          updatePaymentStatus(message);
+          clearForm();
         }
       }
     });
+}
+
+function clearForm() {
+  document.getElementById("paymentForm").querySelector("form").reset();
 }

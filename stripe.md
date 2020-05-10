@@ -259,3 +259,81 @@ gem 'stripe'
 ```
 
 Then run `bundle` in the project to install. 
+
+## Add a status handler
+
+When people submit a payment, I want to give them  some status indicator. So I add this markup to `app/views/pages/pay.html.erb`: 
+
+```html
+<div id="paymentModal">
+  <div id="status">
+    <p id="message">Payment processing</p>
+    <div class="loader"></div>
+    <button id="closeButton">Close</button>
+  </div>
+</div>
+```
+
+And add these styles: 
+
+```css
+#paymentModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: none;
+}
+
+#status {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: $link-color;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    padding: 2em;
+    text-align: center;
+    color: $background;
+}
+
+.loader {
+    border: 8px solid $background;
+    border-radius: 50%;
+    border-top: 8px solid $accent;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #closeButton {
+      margin-top: 1em;
+      display: none;
+  }
+```
+
+Now there's a payment status modal, ready to be opened. It starts closed. When people submit the forms, I'll change the display to block.  
+
+Once the payment is complete and either successful or has failed, I'll hide the loading indicator and update the message. I do that in javascript like this: 
+
+```js
+
+```
