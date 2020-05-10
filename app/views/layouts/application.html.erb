@@ -9,6 +9,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
     <%= favicon_link_tag asset_path('atwater_favicon.ico'), :rel => 'icon', :type =>  'image/png' %>
+    <meta name="stripePublishableKey" content="<%= Rails.configuration.x.stripe.publishable_key %>">
+    <script src="https://js.stripe.com/v3/"></script>
   </head>
   <body>
     <div class="mobileNav">

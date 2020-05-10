@@ -32,4 +32,9 @@ class PagesController < ApplicationController
     @title = "The Atwater Group | Contact"
     @slug = "contact"
   end
+
+  def pay
+    @title = "The Atwater Group | Pay"
+    @slug = "pay"
+  end
 end

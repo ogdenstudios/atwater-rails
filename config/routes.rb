@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/process', to: "pages#process_page"
   get '/rates', to: "pages#rates"
   get '/contact', to: "pages#contact"
+  get '/pay', to: "pages#pay"
   get '/portfolio', to: "portfolios#index"
   get '/portfolio/all', to: "portfolios#all" 
   get '/portfolio/:slug', to: "portfolios#show"
@@ -18,5 +19,5 @@ Rails.application.routes.draw do
   resources :books
   resources :genres
   resources :subgenres
-
+  resources :payment_intents, only: [:create]
 end
